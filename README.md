@@ -1,8 +1,8 @@
 # Mario Kart World Road Map
-Work By Lumi Platinum (Original By MrL314)
+Work By Lumi Platinum (Original By MrL314) <br>
 Special Thanks to Lady Sophie and all of the lovely helpful people of the Super Mario Wiki!
 
-Feel free to use these maps, however credit is very much appreciated! <3 
+Feel free to use these maps, however credit is very much appreciated! <3 <br>
 Found a problem? No worries! Create an issue report to get your feedback heard as soon as possible!
 
 ## Full Map w/ Roads
