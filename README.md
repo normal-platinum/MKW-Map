@@ -6,7 +6,7 @@ Feel free to use these maps, however credit is very much appreciated! <3
 Found a problem? No worries! Create an issue report to get your feedback heard as soon as possible!
 
 ## Full Map w/ Roads
-![Full Map](https://github.com/normal-platinum/MKW-RoadMap/blob/main/Full_Map.png)
+![Full Map](https://github.com/normal-platinum/MKW-Map/blob/main/Full_Map.png)
 
 - Black lines are "Primary Roads", as in, used in races (GP, KT, VS, TT, etc.)
 - Green lines are "Secondary Roads", not used in races
@@ -18,7 +18,7 @@ Found a problem? No worries! Create an issue report to get your feedback heard a
 - Magenta lines are "Back Roads", which can only be driven on by small vehicles
 
 ## Roads Only (Transparent Map)
-![Road Map](https://github.com/normal-platinum/MKW-RoadMap/blob/main/Road_Map.png)
+![Road Map](https://github.com/normal-platinum/MKW-Map/blob/main/Road_Map.png)
 
 ### This project is incomplete as of the moment.
 1) The road lines are very close to accurate, but I would say they are within maybe 3-5px in each direction of the actual location. This likely will remain the case until datamining becomes possible.
