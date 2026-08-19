@@ -1,5 +1,5 @@
 # Mario Kart World Road and Traffic Map
-Work By Lumi Platinum (Original By MrL314) <br>
+Work By Lumi Platinum ([Original](https://github.com/MrL314/MKW-RoadMap) By MrL314) <br>
 Special Thanks to Lady Sophie and all of the lovely helpful people of the Super Mario Wiki!
 
 Feel free to use these maps, however credit is very much appreciated! <3 <br>
