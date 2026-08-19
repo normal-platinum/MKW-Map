@@ -1,13 +1,14 @@
 # Mario Kart World Interactive Map
-This repo has been converted into a workspace for Obsidian Leaflet! The original readme can be found here.
-Work by Lumi Platinum aka normal-platinum
-Credit for certain images to MrL314
-Obsidian Leaflet was built by Jeremy Valentine aka javalent
+This repo has been converted into a workspace for Obsidian Leaflet! The original readme can be found [here](https://github.com/normal-platinum/MKW-Map/blob/main/Maps/Maps.md).<br>
+Work by Lumi Platinum aka normal-platinum<br>
+Credit for certain images to MrL314<br>
+Obsidian Leaflet was built by Jeremy Valentine aka javalent<br>
 Special Thanks to Lady Sophie and all of the lovely helpful people of the Super Mario Wiki!
 
-If you contributed, feel free to add your name here!
+If you contributed, feel free to add your name here!<br>
 Contributors:
-- 
+- example
+
 ## How to contribute
 1) Installation Setup
 	1) Install Obsidian and some form of git cloning (I prefer using GUI, so I have Desktop Plus)
@@ -32,4 +33,4 @@ Contributors:
 - Yoshi's Drive-Throughs, Snack Bars, Food Trucks, and Vending Machines
 - Track/Route/Rally Checkpoints
 ### Naming Conventions
-Please refer to Names.md
+Please refer to [Names.md](https://github.com/normal-platinum/MKW-Map/blob/main/Names.md)
