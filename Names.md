@@ -1,0 +1,78 @@
+
+- **MKW** - Mario Kart World
+- **Yoshi's**
+	- YDT - Drive Through
+	- YFT - Food Truck
+	- YSB - Snack Bar
+	- YVM - Vending Machine
+- **Tracks**
+	- Nitros (New Courses)
+		- MBC - Mario Bros Circuit
+		- CC - Crown City
+		- WS - Whistlestop Summit
+		- DKS - DK Spaceport
+		- SP - Starview Peak
+		- FO - Faraway Oasis
+		- PS - Peach Stadium
+		- SSS - Salty Salty Speedway
+		- GBR - Great ? Block Ruins
+		- CCF - Cheep Cheep Falls
+		- DD - Dandelion Depths
+		- BCi - Boo Cinema
+		- DBB - Dry Bones Burnout
+		- BC - Bowser's Castle
+		- AH - Acorn Heights
+		- MC - Mario Circuit
+		- RR - Rainbow Road
+	- Retros (Returning Courses)
+		- rDH - Desert Hills (Mario Kart DS)
+		- rSGB - Shy Guy Bazaar (Mario Kart 7)
+		- rWS - Wario Stadium (Mario Kart 64)
+		- rAF - Airship Fortress (Mario Kart DS)
+		- rDKP - DK Pass (Mario Kart DS)
+		- rSHS - Sky-High Sundae (Mario Kart 8 DX)
+		- rWSh - Wario Shipyard (Mario Kart 7)
+		- rKTB - Koopa Troopa Beach (Super Mario Kart)
+		- rPB - Peach Beach (Mario Kart Double Dash)
+		- rDDJ - Dino Dino Jungle (Mario Kart Double Dash)
+		- rMMM - Moo Moo Meadows (Mario Kart Wii)
+		- rCM - Choco Mountain (Mario Kart 64)
+		- rTF - Toad's Factory (Mario Kart Wii)
+- **Food**
+	- Snacks
+		- Snacks 1 - Juice (Green Can), Potato Chips (Blue Bag), Dark Chocolate
+		- Snacks 2 - Soda (Blue Can), Banana Chips (Green Bag), Strawberry Chocolate
+		- Snacks 3 - Coffee (Red Can), Spicy Chips (Red Bag), White Chocolate
+	- Festival Foods
+		- Takoyaki (Octopus Balls)
+		- Taiyaki (Fish-Shaped Cake)
+		- Candied Apple
+	- Burger
+	- Pizza
+	- Fruit
+	- Pita
+	- Bread
+	- Ice Cream
+	- Skewers
+	- Fish and Chips
+	- Cake
+	- Roast
+	- Sushi
+	- Lunchbox
+	- Popcorn
+	- Lava Curry
+	- Dairy
+	- Donuts
+	- Pancakes
+- **NPC Colors**
+	- Toad
+		- Blue
+		- Yellow
+		- Green
+		- Pink (Some may say Purple. I disagree.)
+	- Yoshi
+		- Blue
+		- Cyan
+		- Red
+		- Pink
+		- Yellow

@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "19386469fca8a835",
+    "type": "split",
+    "children": [
+      {
+        "id": "081fe21ba4eb40f3",
+        "type": "tabs",
+        "dimension": 45.748730964467,
+        "children": [
+          {
+            "id": "15e4834add15db04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Leaflet.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Leaflet"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1834b38e34e98501",
+        "type": "tabs",
+        "dimension": 54.251269035533,
+        "children": [
+          {
+            "id": "5b8f1de89d2985c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "5e00cd3b3a2edfdc",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Screenshots/Yoshi's/MKW YVM CC3.png"
+              },
+              "icon": "lucide-image",
+              "title": "MKW YVM CC3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cbf01266ca14b54a",
+    "type": "split",
+    "children": [
+      {
+        "id": "feafbccb917c5cde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab8c5e94fc12fa1c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "10ec347c79aebce5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4f4667fa2214320e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a5b86b543500727b",
+    "type": "split",
+    "children": [
+      {
+        "id": "199c9baf0191170a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b03d36664f62be6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Map.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d9ae62e2fdb58e73",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Map.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "19dd90f33245bbc5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e87bb4196e82b26f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c5817cf95b7eec63",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Map.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false
+    }
+  },
+  "active": "15e4834add15db04",
+  "lastOpenFiles": [
+    "Names.md",
+    "Leaflet.md",
+    "Untitled Document",
+    "README.md",
+    "Icons/Yoshis_Icon.png",
+    "markers.json.md",
+    "markers.json",
+    "Maps/Maps.md",
+    "Screenshots",
+    "Map.md",
+    "Screenshots/Yoshi's/MKW YVM CC2.png",
+    "Screenshots/Yoshi's/MKW YVM CC3.png",
+    "Screenshots/Yoshi's/MKW YVM rTF2.png",
+    "Screenshots/Yoshi's/MKW YVM CC1.png",
+    "Screenshots/Yoshi's/MKW YVM rTF1.png",
+    "Screenshots/Yoshi's/MKW YVM PS3.png",
+    "Screenshots/Yoshi's/MKW YVM PS2.png",
+    "Screenshots/Yoshi's/MKW YVM PS1.png",
+    "Screenshots/Yoshi's/MKW YFT rTF Lunchbox (Green).png",
+    "Maps/Layers.xcf",
+    "Icons",
+    "MKW YVM MBC3.md",
+    "Screenshots/Yoshi's",
+    "Maps"
+  ]
+}

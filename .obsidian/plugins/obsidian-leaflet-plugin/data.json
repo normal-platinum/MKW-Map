@@ -1,0 +1,156 @@
+{
+  "mapMarkers": [],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [
+    {
+      "type": "Vending Machine",
+      "iconName": "map-marker",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "yvm"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Train Station",
+      "iconName": "map-marker",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "station"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "P Switch",
+      "iconName": "map-marker",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "mission"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Yoshi's",
+      "iconName": "map-marker",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 10,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "ydt",
+        "yft",
+        "ysb"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": true,
+  "layerMarkers": true,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {
+    "darkMode": "false",
+    "defaultZoom": 1,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "600px",
+    "image": "[[Full_Map.png]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[Full_Map.png]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 4,
+    "minZoom": 1,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 36,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 1,
+    "zoomFeatures": false,
+    "id": "mkw-map",
+    "lat": 50,
+    "long": 50,
+    "unit": "meters",
+    "filterTag": []
+  },
+  "enableDraw": true,
+  "defaultUnitType": "metric",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}
