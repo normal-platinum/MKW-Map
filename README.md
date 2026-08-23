@@ -29,6 +29,7 @@ Contributors:
 	- Automated translating between Obsidian Leaflet YAML and Leaflet.js format
 	- Github site to display the map on web (Leaflet.js)
 	- More convenient way to contribute markers
+	- Marker sorting (type of Yoshi's location, tracks/routes active)
 - P Switch Missions and Peach Medallions
 - Yoshi's Drive-Throughs, Snack Bars, Food Trucks, and Vending Machines
 - Track/Route/Rally Checkpoints

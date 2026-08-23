@@ -4,9 +4,9 @@ image:
 - [[World_Map_(NoIcons).png|Map Only]]
 - [[World_Map_(Icons).png|In-Game Map]]
 imageOverlay:
+- [ [[Road_Map.png|Roads]] ]
 - [ [[Traffic_Map.png|Traffic]] ]
 - [ [[Train_Map.png|Railroads]] ]
-- [ [[Road_Map.png|Roads]] ]
 bounds: [[1110,-1217],[-1195,1243]]
 lat: 0
 long: 0

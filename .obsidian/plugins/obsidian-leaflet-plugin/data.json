@@ -1,5 +1,136 @@
 {
-  "mapMarkers": [],
+  "mapMarkers": [
+    {
+      "id": "mkw-map",
+      "lastAccessed": 1787504335499,
+      "markers": [
+        {
+          "id": "ID_9af9eadaf929",
+          "type": "Yoshi's",
+          "loc": [
+            -646,
+            -401
+          ],
+          "link": "MKW YFT CC Burger (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6aca89795b29",
+          "type": "Yoshi's",
+          "loc": [
+            -511,
+            -352
+          ],
+          "link": "MKW YFT CC Burger (Yellow).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5aab1b19bbf9",
+          "type": "Yoshi's",
+          "loc": [
+            -207,
+            -42
+          ],
+          "link": "MKW YFT PS Cake (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2968aa897b4a",
+          "type": "Yoshi's",
+          "loc": [
+            -22,
+            46
+          ],
+          "link": "MKW YFT PS Lunchbox.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b39984ae989",
+          "type": "Yoshi's",
+          "loc": [
+            -13,
+            -330
+          ],
+          "link": "MKW YFT rCM Donuts (Yellow).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b495998f988",
+          "type": "Yoshi's",
+          "loc": [
+            121,
+            590
+          ],
+          "link": "MKW YFT rDKP Bread.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69e91bc9386a",
+          "type": "Yoshi's",
+          "loc": [
+            371,
+            -315
+          ],
+          "link": "MKW YFT rTF Lunchbox (Green).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Leaflet.md"
+      ]
+    }
+  ],
   "defaultMarker": {
     "type": "default",
     "iconName": "map-marker",

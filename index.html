@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+</head>
+<body>
+  <div id="map" style="width:99vw;height: 98vh;"></div>
+  <script>
+    var map = L.map('map', {
+      crs: L.CRS.Simple,
+      minZoom: -2,
+      maxZoom: 4
+    });
+    var bounds = [[1110,-1217],[-1195,1243]];
+    var image = L.imageOverlay('https://github.com/normal-platinum/MKW-Map/blob/main/Maps/Full_Map_L1.png?raw=true',bounds).addTo(map);
+    map.fitBounds(bounds);
+    var yoshisIcon = L.icon({
+      iconUrl: 'https://github.com/normal-platinum/MKW-Map/blob/main/Icons/Yoshis_Icon.png?raw=true',
+      iconSize: [24,24],
+      alt: "Yoshi's'"
+    });
+    var marker = L.marker([-646,-401]).setIcon(yoshisIcon).bindPopup('<img src="https://github.com/normal-platinum/MKW-Map/blob/main/Screenshots/Yoshi\'s/MKW%20YFT%20CC%20Burger%20(Blue).png?raw=true" width="240" height="135">').addTo(map);
+  </script>
+</body>
