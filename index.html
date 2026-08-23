@@ -17,7 +17,7 @@
       maxZoom: 4
     });
     var bounds = [[1110,-1217],[-1195,1243]];
-    var image = L.imageOverlay('https://github.com/normal-platinum/MKW-Map/blob/main/Maps/Full_Map_L1.png?raw=true',bounds).addTo(map);
+    var image = L.imageOverlay('/Maps/Full_Map_L1.png',bounds).addTo(map);
     map.fitBounds(bounds);
     var yoshisIcon = L.icon({
       iconUrl: 'https://github.com/normal-platinum/MKW-Map/blob/main/Icons/Yoshis_Icon.png?raw=true',
