@@ -1,7 +1,10 @@
 # Mario Kart World Interactive Map
 [![Interactive Leaflet Map Screenshot](https://github.com/normal-platinum/MKW-Map/blob/main/preview.png)](https://normal-platinum.github.io/MKW-Map/)
-*Click the map above to explore the live interactive version.*<br>
-This repo has been converted into a workspace for Obsidian Leaflet! The original readme can be found [here](https://github.com/normal-platinum/MKW-Map/blob/main/Maps/Maps.md).<br>
+*Click the map above to explore the live interactive version.*
+
+This repo has been converted into a workspace for Obsidian Leaflet!<br> 
+The original readme can be found [here](https://github.com/normal-platinum/MKW-Map/blob/main/Maps/Maps.md).
+
 Work by Lumi Platinum aka normal-platinum<br>
 Credit for certain images to MrL314<br>
 Obsidian Leaflet was built by Jeremy Valentine aka javalent<br>
@@ -23,17 +26,15 @@ Contributors:
 3) Edit! (Obsidian Leaflet Tips)
 	- While in editing view, you can change parameters of the map. In order to view the map, either toggle reader view or click outside the code block.
 	- Be careful when dragging the map, as markers can also be dragged.
-	- Please do NOT "Convert to Code Block"! This converts marker's JSON to YAML, which will cause that marker to not appear on the website. 
+	- Please do NOT "Convert to Code Block"! This converts the marker's JSON to YAML, which will cause that marker to not appear on the website. 
 4) Publish Your Changes
 	1) Commit changes to your fork. It's a good idea to do this regularly, especially if you are working collaboratively
 	2) When your fork reaches a finished state, submit a Pull Request to merge your changes into the main branch. Please describe exactly what you changed!
 
 ## Contributions wanted
 - Large Undertakings
-	- Automated translating between Obsidian Leaflet YAML and Leaflet.js format
-	- Github site to display the map on web (Leaflet.js)
 	- More convenient way to contribute markers
-	- Marker sorting (type of Yoshi's location, tracks/routes active)
+	- More marker metadata (tracks/routes active, spawn probabilities)
 - P Switch Missions and Peach Medallions
 - Yoshi's Drive-Throughs, Snack Bars, Food Trucks, and Vending Machines
 - Track/Route/Rally Checkpoints
