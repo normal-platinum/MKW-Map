@@ -1,4 +1,6 @@
 # Mario Kart World Interactive Map
+[![Interactive Leaflet Map Screenshot](https://github.com/normal-platinum/MKW-Map/blob/main/preview.png)](https://normal-platinum.github.io/MKW-Map/)
+*Click the map above to explore the live interactive version.*<br>
 This repo has been converted into a workspace for Obsidian Leaflet! The original readme can be found [here](https://github.com/normal-platinum/MKW-Map/blob/main/Maps/Maps.md).<br>
 Work by Lumi Platinum aka normal-platinum<br>
 Credit for certain images to MrL314<br>
