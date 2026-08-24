@@ -10,20 +10,70 @@
 </head>
 <body>
   <div id="map" style="width:99vw;height: 98vh;"></div>
-  <script>
-    var map = L.map('map', {
-      crs: L.CRS.Simple,
-      minZoom: -2,
-      maxZoom: 4
-    });
-    var bounds = [[1110,-1217],[-1195,1243]];
-    var image = L.imageOverlay('Maps/Full_Map_L1.png',bounds).addTo(map);
-    map.fitBounds(bounds);
-    var yoshisIcon = L.icon({
-      iconUrl: 'Icons/Yoshis_Icon.png',
-      iconSize: [24,24],
-      alt: "Yoshi's'"
-    });
-    var marker = L.marker([-646,-401]).setIcon(yoshisIcon).bindPopup('<img src="/Screenshots/Yoshi\'s/MKW YFT CC Burger (Blue).png" width="240" height="135">').addTo(map);
-  </script>
 </body>
+<script>
+  //init map
+  var map = L.map('map', {
+    crs: L.CRS.Simple,
+    minZoom: -2,
+    maxZoom: 4
+  });
+  var bounds = [[1110,-1217],[-1195,1243]];
+  var image = L.imageOverlay('Maps/Full_Map_L1.png',bounds).addTo(map);
+  map.fitBounds(bounds);
+  
+  //grab data.json
+  async function loadDataJSON() {try {
+    const response = await fetch('.obsidian/plugins/obsidian-leaflet-plugin/data.json');
+    if (!response.ok) {throw new Error('HTTP error when fetching data.json');}
+    return await response.json();
+  } catch (error) {
+    console.error('Could not load data.json:', error);
+  }}
+  
+  //icons
+  var isMobile = window.innerWidth <= 768;
+  const yoshisIcon = L.icon({
+    iconUrl: 'Icons/Yoshis_Icon.png',
+    iconSize: isMobile ? [48, 48] : [24,24],
+    alt: "Yoshi's Restaurant"
+  });
+  const yvmIcon = L.icon({
+    iconUrl: 'Icons/YVM_Icon.png',
+    iconSize: isMobile ? [48, 48] : [24,24],
+    alt: "Yoshi's Vending Machine"
+  });
+  const pSwitchIcon = L.icon({
+    iconUrl: 'Icons/P_Switch_Icon.png',
+    iconSize: isMobile ? [48, 48] : [24,24],
+    alt: "P Switch Mission"
+  });
+  const trainIcon = L.icon({
+    iconUrl: 'Icons/Train_Icon.png',
+    iconSize: isMobile ? [48, 48] : [24,24],
+    alt: "Train Station"
+  });
+  
+  //funcs
+  function myPopup(desc,file) {
+    return desc+'<br><br><img src="Screenshots/'+file+'" width="240" height="135">';};
+  function myIcon(type) {
+    if (type == "Yoshi's") {return yoshisIcon}
+    if (type == "Vending Machine") {return yvmIcon}
+    if (type == "P Switch") {return pSwitchIcon}
+    if (type == "Train Station") {return trainIcon}
+  }
+  
+  //async stuff
+  loadDataJSON().then(result => {
+    const JSONmarkers = result.mapMarkers[0].markers;
+    const JSONicons = result.markerIcons;
+    console.log(JSONmarkers)
+    for (let i = 0; i < JSONmarkers.length; i++) {
+      L.marker(JSONmarkers[i].loc)
+        .setIcon(myIcon(JSONmarkers[i].type))
+        .bindPopup(myPopup(JSONmarkers[i].description,"Yoshi's/"+JSONmarkers[i].link))
+        .addTo(map);
+    }
+  })
+</script>

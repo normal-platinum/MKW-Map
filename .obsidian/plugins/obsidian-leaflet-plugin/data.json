@@ -2,8 +2,376 @@
   "mapMarkers": [
     {
       "id": "mkw-map",
-      "lastAccessed": 1787504335499,
+      "lastAccessed": 1787546018201,
       "markers": [
+        {
+          "id": "ID_af9eadaf929a",
+          "type": "Vending Machine",
+          "loc": [
+            -308,
+            -562
+          ],
+          "link": "MKW YVM MBC1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Gazebo area east of MBC",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b24ee6bfbe63",
+          "type": "Vending Machine",
+          "loc": [
+            -368,
+            -755
+          ],
+          "link": "MKW YVM MBC2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Rest area south of MBC",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b01fd49c41f5",
+          "type": "Vending Machine",
+          "loc": [
+            -555,
+            -415
+          ],
+          "link": "MKW YVM CC1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Far side of West Greens Park",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bf6898849a25",
+          "type": "Vending Machine",
+          "loc": [
+            -569,
+            -364
+          ],
+          "link": "MKW YVM CC2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Behind the Dash building",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8512feacf845",
+          "type": "Vending Machine",
+          "loc": [
+            -542,
+            -360
+          ],
+          "link": "MKW YVM CC3.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Behind the Boo cinema",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8ad0ff80b5fa",
+          "type": "Vending Machine",
+          "loc": [
+            115,
+            -735
+          ],
+          "link": "MKW YVM rWS1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Parking lot southwest of rWS",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9c490ca0bc73",
+          "type": "Vending Machine",
+          "loc": [
+            -11,
+            -680
+          ],
+          "link": "MKW YVM rWS2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Rest area south of rWS",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_af7afd98d53b",
+          "type": "Vending Machine",
+          "loc": [
+            -29,
+            -596
+          ],
+          "link": "MKW YVM rWS3.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Rest area southeast of rWS",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a794b7bbd829",
+          "type": "Vending Machine",
+          "loc": [
+            -17,
+            -783
+          ],
+          "link": "MKW YVM rWS4.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Rest area overlooking SGB",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ad3517aaa334",
+          "type": "Vending Machine",
+          "loc": [
+            -209,
+            -14
+          ],
+          "link": "MKW YVM PS1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Northwest parking lot",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8dcc578a42e6",
+          "type": "Vending Machine",
+          "loc": [
+            -203,
+            -35
+          ],
+          "link": "MKW YVM PS2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Entrance of northwest parking lot",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_baf2a181bd3b",
+          "type": "Vending Machine",
+          "loc": [
+            -205,
+            9
+          ],
+          "link": "MKW YVM PS3.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Northeast parking lot",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_88c012879ccf",
+          "type": "Vending Machine",
+          "loc": [
+            -203,
+            31
+          ],
+          "link": "MKW YVM PS4.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Corner of northeast parking lot",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b6fd178bb753",
+          "type": "Vending Machine",
+          "loc": [
+            324,
+            -321
+          ],
+          "link": "MKW YVM rTF1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Against ramp of southeast building",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_94f6779cc83d",
+          "type": "Vending Machine",
+          "loc": [
+            337,
+            -316
+          ],
+          "link": "MKW YVM rTF2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Base of southeast building",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_946e189667d3",
+          "type": "Vending Machine",
+          "loc": [
+            438,
+            25
+          ],
+          "link": "MKW YVM MC.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Parking area south of MC",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9817f896b69d",
+          "type": "Train Station",
+          "loc": [
+            -178,
+            -755
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Station northwest of MBC",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_80e28190d68e",
+          "type": "Train Station",
+          "loc": [
+            -245,
+            0
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Station under PS",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a781cea80d03",
+          "type": "Train Station",
+          "loc": [
+            -78,
+            -119
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Station northwest of PS",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bae732863c01",
+          "type": "Train Station",
+          "loc": [
+            500,
+            333
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Station between DD and BC",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9f08b7a7550b",
+          "type": "Train Station",
+          "loc": [
+            128,
+            678
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Station east of rDKP",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b12ff39b8d00",
+          "type": "Train Station",
+          "loc": [
+            -657,
+            839
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Station southwest of rPB",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
         {
           "id": "ID_9af9eadaf929",
           "type": "Yoshi's",
