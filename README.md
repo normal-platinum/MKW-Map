@@ -18,8 +18,10 @@ Contributors:
 2) Obsidian Setup
 	1) In Obsidian, open the folder where you cloned to as a new vault
 	2) Enable plugins (required for Leaflet)
-3) Edit!
+3) Edit! (Obsidian Leaflet Tips)
 	- While in editing view, you can change parameters of the map. In order to view the map, either toggle reader view or click outside the code block.
+	- Be careful when dragging the map, as markers can also be dragged.
+	- Please do NOT "Convert to Code Block"! This converts marker's JSON to YAML, which will cause that marker to not appear on the website. 
 4) Publish Your Changes
 	1) Commit changes to your fork. It's a good idea to do this regularly, especially if you are working collaboratively
 	2) When your fork reaches a finished state, submit a Pull Request to merge your changes into the main branch. Please describe exactly what you changed!
@@ -29,6 +31,7 @@ Contributors:
 	- Automated translating between Obsidian Leaflet YAML and Leaflet.js format
 	- Github site to display the map on web (Leaflet.js)
 	- More convenient way to contribute markers
+	- Marker sorting (type of Yoshi's location, tracks/routes active)
 - P Switch Missions and Peach Medallions
 - Yoshi's Drive-Throughs, Snack Bars, Food Trucks, and Vending Machines
 - Track/Route/Rally Checkpoints
