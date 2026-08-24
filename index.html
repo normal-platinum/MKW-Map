@@ -32,7 +32,10 @@
   }}
   
   //icons
-  var isMobile = window.innerWidth <= 768;
+  var isMobile;
+  try {isMobile = navigator.userAgentData.mobile;} 
+  catch (error) {console.error('Loading desktop site,', error);
+    isMobile = false;}
   const yoshisIcon = L.icon({
     iconUrl: 'Icons/Yoshis_Icon.png',
     iconSize: isMobile ? [48, 48] : [24,24],
