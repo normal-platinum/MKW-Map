@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="margin:0;padding:0;">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -9,8 +9,8 @@
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
 </head>
-<body>
-  <div id="map" style="width:99vw;height: 98vh;"></div>
+<body style="margin:0;padding:0;">
+  <div id="map" style="width:100vw;height: 100vh;"></div>
 </body>
 <script>
   //init map
@@ -19,10 +19,12 @@
     center: [0,0],
     zoom: -1,
     minZoom: -2,
-    maxZoom: 4
+    maxZoom: 4,
   });
   var bounds = [[1110,-1217],[-1195,1243]];
-  var image = L.imageOverlay('Maps/Full_Map_L1.png',bounds).addTo(map);
+  var bgMap = L.imageOverlay('Maps/Full_Map_L1.png',bounds).addTo(map);
+  var noRoadsMap = L.imageOverlay('Maps/World_Map_(NoIcons).png',bounds);
+  var trafficMap = L.imageOverlay('Maps/Traffic_Map.png',bounds);
   map.setMaxBounds(bounds.map(c => c.map(x => x * 1.2)));
   
   //grab data.json
@@ -34,48 +36,90 @@
     console.error('Could not load data.json:', error);
   }}
   
-  //icons
+  //icons and layerGroups
+  var driveThrus = L.layerGroup([]);
+  var foodTrucks = L.layerGroup([]);
+  var snackBars = L.layerGroup([]);
   const yoshisIcon = L.icon({
     iconUrl: 'Icons/Yoshis_Icon.png',
     iconSize: [24,24],
     alt: "Yoshi's Restaurant"
   });
+  var vendingMachines = L.layerGroup([]);
   const yvmIcon = L.icon({
     iconUrl: 'Icons/YVM_Icon.png',
     iconSize: [24,24],
     alt: "Yoshi's Vending Machine"
   });
+  var pSwitches = L.layerGroup([]);
   const pSwitchIcon = L.icon({
     iconUrl: 'Icons/P_Switch_Icon.png',
     iconSize: [24,24],
     alt: "P Switch Mission"
   });
+  var trainStations = L.layerGroup([]);
   const trainIcon = L.icon({
     iconUrl: 'Icons/Train_Icon.png',
     iconSize: [24,24],
     alt: "Train Station"
   });
+  var miscLayer = L.layerGroup([]);
+  
+  //layer controls
+  const baseLayers = {
+    "Road Map": bgMap,
+    "World Map": noRoadsMap,
+  }
+  const overlays = {
+    "Traffic Map": trafficMap,
+    "Yoshi's Drive-throughs": driveThrus,
+    "Yoshi's Food Trucks": foodTrucks,
+    "Yoshi's Snack Bars": snackBars,
+    "Yoshi's Vending Machines": vendingMachines,
+    "P Switch Missions": pSwitches,
+    "Train Stations": trainStations,
+    "Miscellaneous": miscLayer,
+  }
+  const layercontrol = L.control.layers(baseLayers, overlays).addTo(map);
   
   //funcs
-  function myPopup(desc,file) {
+  function myPopup(desc,file) {//returns stringified html element
     return desc+'<br><br><img src="Screenshots/'+file+'" width="240" height="135">';};
-  function myIcon(type) {
+
+  function myIcon(type) {//returns icon
     if (type == "Yoshi's") {return yoshisIcon}
     if (type == "Vending Machine") {return yvmIcon}
     if (type == "P Switch") {return pSwitchIcon}
     if (type == "Train Station") {return trainIcon}
+  }
+
+  function myGroup(file,type) {//returns layerGroup
+    if (type == "Yoshi's") {
+      var t; try {t = String(file).match(/(?:MKW.)(\w+)/)[1]} catch {console.error('No file found, setting layerGroup to miscLayer')}
+      if (t == "YDT") {return driveThrus}
+      if (t == "YFT") {return foodTrucks}
+      if (t == "YSB") {return snackBars}
+    }
+    if (type == "Vending Machine") {return vendingMachines}
+    if (type == "P Switch") {return pSwitches}
+    if (type == "Train Station") {return trainStations}
+    return miscLayer;
   }
   
   //async stuff
   loadDataJSON().then(result => {
     const JSONmarkers = result.mapMarkers[0].markers;
     const JSONicons = result.markerIcons;
-    console.log(JSONmarkers)
+    //console.log(JSONmarkers)
     for (let i = 0; i < JSONmarkers.length; i++) {
       L.marker(JSONmarkers[i].loc)
         .setIcon(myIcon(JSONmarkers[i].type))
         .bindPopup(myPopup(JSONmarkers[i].description,"Yoshi's/"+JSONmarkers[i].link))
-        .addTo(map);
+        .addTo(myGroup(JSONmarkers[i].link,JSONmarkers[i].type));
     }
+console.log(Object.values(overlays))
+    for (let i = 1; i < Object.keys(overlays).length; i++) {
+      if (Object.values(overlays)[i].getLayers().length != 0) {
+        Object.values(overlays)[i].addTo(map);}}
   })
 </script>
