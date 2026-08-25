@@ -27,7 +27,7 @@
   var bgMap = L.imageOverlay('Maps/Full_Map_L1.png',bounds).addTo(map);
   var noRoadsMap = L.imageOverlay('Maps/World_Map_(NoIcons).png',bounds);
   var trafficMap = L.imageOverlay('Maps/Traffic_Map.png',bounds);
-  map.setMaxBounds(bounds.map(c => c.map(x => x * 1.2)));
+  map.setMaxBounds([[1500,1500],[-1500,-1500]]);
   
   //grab data.json
   async function loadDataJSON() {try {
