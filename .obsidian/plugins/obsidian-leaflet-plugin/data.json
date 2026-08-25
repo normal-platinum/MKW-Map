@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "mkw-map",
-      "lastAccessed": 1787694984555,
+      "lastAccessed": 1787695428240,
       "markers": [
         {
           "id": "ID_af9eadaf929a",
@@ -2418,8 +2418,8 @@
           "id": "ID_ebaa08cbab78",
           "type": "Fast Travel",
           "loc": [
-            -32,
-            268.25
+            124.875,
+            241.875
           ],
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
