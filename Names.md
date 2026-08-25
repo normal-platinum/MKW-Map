@@ -5,6 +5,7 @@
 	- YFT - Food Truck
 	- YSB - Snack Bar
 	- YVM - Vending Machine
+- DFS - Dash Food Stall (For use with non-Yoshi's vendors)
 - **Tracks**
 	- Nitros (New Courses)
 		- MBC - Mario Bros Circuit
@@ -31,7 +32,7 @@
 		- rAF - Airship Fortress (Mario Kart DS)
 		- rDKP - DK Pass (Mario Kart DS)
 		- rSHS - Sky-High Sundae (Mario Kart 8 DX)
-		- rWSh - Wario Shipyard (Mario Kart 7)
+		- rWSh - Wario Shipyard (Mario Kart 7) (also called Wario's Galleon in British English)
 		- rKTB - Koopa Troopa Beach (Super Mario Kart)
 		- rPB - Peach Beach (Mario Kart Double Dash)
 		- rDDJ - Dino Dino Jungle (Mario Kart Double Dash)
@@ -54,7 +55,7 @@
 	- Bread
 	- Ice Cream
 	- Skewers
-	- Fish and Chips
+	- Fish & Chips
 	- Cake
 	- Roast
 	- Sushi

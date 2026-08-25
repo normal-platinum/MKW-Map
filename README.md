@@ -27,6 +27,7 @@ Contributors:
 	- While in editing view, you can change parameters of the map. In order to view the map, either toggle reader view or click outside the code block.
 	- Be careful when dragging the map, as markers can also be dragged.
 	- Please do NOT "Convert to Code Block"! This converts the marker's JSON to YAML, which will cause that marker to not appear on the website. 
+	- When you add a screenshot to your marker in Obsidian, make sure that the 'Note to Open' field includes the file ending. Otherwise, it will open a new .md file name instead of your image.
 4) Publish Your Changes
 	1) Commit changes to your fork. It's a good idea to do this regularly, especially if you are working collaboratively
 	2) When your fork reaches a finished state, submit a Pull Request to merge your changes into the main branch. Please describe exactly what you changed!
@@ -35,6 +36,7 @@ Contributors:
 - Large Undertakings
 	- More convenient way to contribute markers
 	- More marker metadata (tracks/routes active, spawn probabilities)
+	- Option for non-homogenous markers (eg. Fast Travel --> each Course/Character, Yoshi's --> each Dash Food)
 - P Switch Missions and Peach Medallions
 - Yoshi's Drive-Throughs, Snack Bars, Food Trucks, and Vending Machines
 - Track/Route/Rally Checkpoints

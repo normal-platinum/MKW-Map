@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "mkw-map",
-      "lastAccessed": 1787546018201,
+      "lastAccessed": 1787694984555,
       "markers": [
         {
           "id": "ID_af9eadaf929a",
@@ -25,14 +25,17 @@
           "id": "ID_b24ee6bfbe63",
           "type": "Vending Machine",
           "loc": [
-            -368,
-            -755
+            -362,
+            -754.5
           ],
           "link": "MKW YVM MBC2.png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            -1.143181818181818,
+            0.6271113035946297
+          ],
           "description": "Rest area south of MBC",
           "minZoom": null,
           "maxZoom": null,
@@ -461,14 +464,17 @@
           "id": "ID_9b495998f988",
           "type": "Yoshi's",
           "loc": [
-            121,
-            590
+            132.75,
+            596.75
           ],
-          "link": "MKW YFT rDKP Bread.png",
+          "link": "MKW YFT rDKP Bread (Green).png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            0.9041666666666667,
+            -0.2299696838458207
+          ],
           "description": null,
           "minZoom": null,
           "maxZoom": null,
@@ -487,6 +493,2125 @@
           "command": false,
           "percent": null,
           "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8ba93a9a6bc8",
+          "type": "Fast Travel",
+          "loc": [
+            -637.4375,
+            -353
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Crown City",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f92a3b99ca48",
+          "type": "Fast Travel",
+          "loc": [
+            562.296875,
+            631
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Starview Peak",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_79e81a7968f8",
+          "type": "Fast Travel",
+          "loc": [
+            781.94921875,
+            342.375
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Boo Cinema",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9888c9789a9a",
+          "type": "Yoshi's",
+          "loc": [
+            776.19921875,
+            335.625
+          ],
+          "link": "MKW YFT BC Popcorn.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a99a79c8ab28",
+          "type": "Fast Travel",
+          "loc": [
+            936.1484375,
+            -15
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Acorn Heights",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b6bdb6a9a8b",
+          "type": "Fast Travel",
+          "loc": [
+            753.1484375,
+            -282.25
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Dry Bones Burnout",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e808b8499a49",
+          "type": "Yoshi's",
+          "loc": [
+            776.44921875,
+            -263.75
+          ],
+          "link": "MKW YFT DBB Snacks1 (East Green).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6a0bd89bfb19",
+          "type": "Yoshi's",
+          "loc": [
+            806.94921875,
+            -329.125
+          ],
+          "link": "MKW YFT DBB Snacks1 (West Green).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_28493a59cafb",
+          "type": "Yoshi's",
+          "loc": [
+            742.69921875,
+            -297.75
+          ],
+          "link": "MKW YFT DBB Snacks1 (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eab9baba796a",
+          "type": "Yoshi's",
+          "loc": [
+            936.57421875,
+            -22.625
+          ],
+          "link": "MKW YFT AH Pancakes.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a94ada5abad9",
+          "type": "Yoshi's",
+          "loc": [
+            425.75,
+            222.75
+          ],
+          "link": "MKW YFT MC Skewers.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.3375,
+            -0.7375487223906453
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7a2b392aa949",
+          "type": "Fast Travel",
+          "loc": [
+            516.19921875,
+            12.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Mario Circuit",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b999486adb99",
+          "type": "Fast Travel",
+          "loc": [
+            296.07421875,
+            368.875
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Dandelion Depths",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8b19fb4929da",
+          "type": "default",
+          "loc": [
+            258.44921875,
+            368.875
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "RV",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f83859595b8a",
+          "type": "Yoshi's",
+          "loc": [
+            254.44921875,
+            309.75
+          ],
+          "link": "MKW YFT DD Bread.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a1809b90a89",
+          "type": "Yoshi's",
+          "loc": [
+            368.57421875,
+            360.5
+          ],
+          "link": "MKW YFT DD Popcorn.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d80889a8f899",
+          "type": "Fast Travel",
+          "loc": [
+            -971.1015625,
+            -411.75
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "DK Spaceport",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab699aea0a7a",
+          "type": "Yoshi's",
+          "loc": [
+            -908.625,
+            -279
+          ],
+          "link": "MKW YFT DKS Fruit (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.42272727272727273,
+            1.5740580337808576
+          ],
+          "description": "Ground level",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2b09caf8c839",
+          "type": "Yoshi's",
+          "loc": [
+            -932.05078125,
+            -291.125
+          ],
+          "link": "MKW YFT DKS Fruit (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "2nd level above ground, south of rocket",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0be898d839b9",
+          "type": "Fast Travel",
+          "loc": [
+            -338.67578125,
+            -716.125
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Mario Bros Circuit",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a8aeb19e8db",
+          "type": "Yoshi's",
+          "loc": [
+            -322.42578125,
+            -716.375
+          ],
+          "link": "MKW YFT MBC Lunchbox.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a487ac9bb99",
+          "type": "Fast Travel",
+          "loc": [
+            -959.30078125,
+            378.375
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Dino Dino Jungle",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0ab93a2b5be8",
+          "type": "Yoshi's",
+          "loc": [
+            -982.67578125,
+            407.75
+          ],
+          "link": "MKW YFT rDDJ Roast (East Yellow).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68188bea7b5b",
+          "type": "Yoshi's",
+          "loc": [
+            -992.375,
+            375.125
+          ],
+          "link": "MKW YFT rDDJ Roast (Green).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5683712121212121,
+            1.7191424859246427
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ba1adb7b199a",
+          "type": "Yoshi's",
+          "loc": [
+            -1019.42578125,
+            345.25
+          ],
+          "link": "MKW YFT rDDJ Roast (West Yellow).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Upper area inside lab",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b4b0bc9b91a",
+          "type": "Yoshi's",
+          "loc": [
+            -869,
+            728
+          ],
+          "link": "MKW YFT GBR Fruit.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.103030303030303,
+            1.505413598960589
+          ],
+          "description": "Floating island south of track",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0afae9c96a38",
+          "type": "Yoshi's",
+          "loc": [
+            -836,
+            780.5
+          ],
+          "link": "MKW YFT GBR Sushi.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.1825757575757576,
+            1.4482459939367691
+          ],
+          "description": "Top of the giant ? Block. Can be reached by riding counter-clockwise up the interior walls.",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_391a8acaba8b",
+          "type": "Fast Travel",
+          "loc": [
+            -833.67578125,
+            735.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Great ? Block Ruins",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1bc8699afa1a",
+          "type": "Yoshi's",
+          "loc": [
+            -491.80078125,
+            688
+          ],
+          "link": "MKW YFT rPB Pizza.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b19d9b91828",
+          "type": "Yoshi's",
+          "loc": [
+            -300.55078125,
+            692.75
+          ],
+          "link": "MKW YFT SSS Pizza (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "South bank of lighthouse peninsula",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3b99290a9bea",
+          "type": "Yoshi's",
+          "loc": [
+            -338.05078125,
+            626
+          ],
+          "link": "MKW YFT SSS Pizza (Yellow).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Raised path overlooking canal",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d96aa8981a09",
+          "type": "Fast Travel",
+          "loc": [
+            -359.80078125,
+            677.375
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Salty Salty Speedway",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a592b6a98c8",
+          "type": "Fast Travel",
+          "loc": [
+            -519.05078125,
+            916.375
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Peach Beach",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2b28093aca59",
+          "type": "Fast Travel",
+          "loc": [
+            -554.30078125,
+            345.625
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Faraway Oasis",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6aaa789b8b88",
+          "type": "Fast Travel",
+          "loc": [
+            -800.42578125,
+            -15.375
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Koopa Troopa Beach",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99cbaaaacb59",
+          "type": "Yoshi's",
+          "loc": [
+            -814.30078125,
+            -23
+          ],
+          "link": "MKW YFT rKTB Fish & Chips.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Western paved area",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a9884868f80a",
+          "type": "Yoshi's",
+          "loc": [
+            -816.92578125,
+            121.625
+          ],
+          "link": "MKW YFT rKTB Fruit.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "West of beach shack",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a97be8198a08",
+          "type": "Yoshi's",
+          "loc": [
+            -816.80078125,
+            133.5
+          ],
+          "link": "MKW YFT rKTB Pizza.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "East of beach shack",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_29187a5b998a",
+          "type": "Yoshi's",
+          "loc": [
+            -590.55078125,
+            -239.25
+          ],
+          "link": "MKW YFT CC Burger (Green).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_39d88b2a4a98",
+          "type": "Yoshi's",
+          "loc": [
+            -603.42578125,
+            -243
+          ],
+          "link": "MKW YFT CC Fish & Chips.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f96a0b6a69a8",
+          "type": "Fast Travel",
+          "loc": [
+            -758.8515625,
+            -685
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Whistlestop Summit",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_98093a184968",
+          "type": "Yoshi's",
+          "loc": [
+            -733.55078125,
+            -693.75
+          ],
+          "link": "MKW YFT WS Snacks3.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Parking lot behind curve depot",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e839e8eb3a0b",
+          "type": "Yoshi's",
+          "loc": [
+            -825.67578125,
+            -732.875
+          ],
+          "link": "MKW YFT WS Donuts.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Top of train-shaped mountain",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4a8be95998b8",
+          "type": "Fast Travel",
+          "loc": [
+            -544.8515625,
+            -1009
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Desert Hills",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3b693b38aaf8",
+          "type": "Yoshi's",
+          "loc": [
+            -521.55078125,
+            -981.25
+          ],
+          "link": "MKW YFT rDH Pita.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_88db9ab858c8",
+          "type": "Fast Travel",
+          "loc": [
+            -107.3515625,
+            -999
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Shy Guy Bazaar",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2898dad9cb78",
+          "type": "Yoshi's",
+          "loc": [
+            450.69921875,
+            -985.5
+          ],
+          "link": "MKW YFT rAF Lava Curry (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Main airship's stern (back)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_28dbaa8bd989",
+          "type": "Yoshi's",
+          "loc": [
+            520.07421875,
+            -783.375
+          ],
+          "link": "MKW YFT rAF Lava Curry (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_38d99b69a9ea",
+          "type": "Fast Travel",
+          "loc": [
+            678.82421875,
+            -618.875
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Bowser's Castle",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ea981939f819",
+          "type": "Fast Travel",
+          "loc": [
+            456.94921875,
+            -917.625
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Airship Fortress",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_188aebb97868",
+          "type": "Fast Travel",
+          "loc": [
+            140.57421875,
+            -608.375
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Wario Stadium",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b90a5ada8afa",
+          "type": "Yoshi's",
+          "loc": [
+            158.32421875,
+            -627.25
+          ],
+          "link": "MKW YFT rWS Lava Curry.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5979594b7859",
+          "type": "Fast Travel",
+          "loc": [
+            343.69921875,
+            -340.75
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Toad's Factory",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_38e829a81b6b",
+          "type": "Fast Travel",
+          "loc": [
+            329.32421875,
+            -119.125
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Toad",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_49badb19895b",
+          "type": "Yoshi's",
+          "loc": [
+            301.32421875,
+            -100.625
+          ],
+          "link": "MKW YDT rMMM Dairy (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6bfb680a4b1a",
+          "type": "Fast Travel",
+          "loc": [
+            115.44921875,
+            2.625
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Moo Moo Meadows",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_897ba98a8ba8",
+          "type": "Yoshi's",
+          "loc": [
+            165.69921875,
+            -14.625
+          ],
+          "link": "MKW YFT rMMM Dairy (Green).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_880b0b5aeab8",
+          "type": "Yoshi's",
+          "loc": [
+            144.125,
+            -23.25
+          ],
+          "link": "MKW YFT rMMM Dairy (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cbf91a78cb69",
+          "type": "Fast Travel",
+          "loc": [
+            -76.05078125,
+            -328.875
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Choco Mountain",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_49d9da88d998",
+          "type": "Fast Travel",
+          "loc": [
+            -253.6015625,
+            -1.75
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Peach Stadium",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68bb9a090919",
+          "type": "Yoshi's",
+          "loc": [
+            -121.05078125,
+            -13
+          ],
+          "link": "MKW YFT PS Cake (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Northwest corner of roundabout",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_29fa78f8cb69",
+          "type": "Yoshi's",
+          "loc": [
+            -121.375,
+            8.75
+          ],
+          "link": "MKW YFT PS Pancakes.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Northeast corner of roundabout",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa5a89ba7869",
+          "type": "Yoshi's",
+          "loc": [
+            -143.30078125,
+            8.375
+          ],
+          "link": "MKW YFT PS Ice Cream.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Southeast corner of roundabout",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_595a4a199869",
+          "type": "Yoshi's",
+          "loc": [
+            -143.55078125,
+            -13.25
+          ],
+          "link": "MKW YFT PS Donuts.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Southwest corner of roundabout",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e91a09fb69d9",
+          "type": "Fast Travel",
+          "loc": [
+            -101.17578125,
+            -2.25
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Peach",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_98cb58aa6b7a",
+          "type": "Fast Travel",
+          "loc": [
+            339.07421875,
+            924.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Sky-High Sundae",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b3aaa088a2b",
+          "type": "Dash Food",
+          "loc": [
+            319.32421875,
+            962.125
+          ],
+          "link": "MKW DFS rSHS Ice Cream (Southeast).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Southeast Toadette Ice Cream",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5aa86928d9cb",
+          "type": "Dash Food",
+          "loc": [
+            340.32421875,
+            918.375
+          ],
+          "link": "MKW DFS rSHS Ice Cream (Northwest).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Northwest Toadette Ice Cream",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4a99b8bb2a1a",
+          "type": "Fast Travel",
+          "loc": [
+            120.82421875,
+            910.125
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Wario",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7bebc90bb9b9",
+          "type": "Yoshi's",
+          "loc": [
+            138.69921875,
+            908.125
+          ],
+          "link": "MKW YFT rSHS Bread.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_db1a792bda0a",
+          "type": "Yoshi's",
+          "loc": [
+            97.19921875,
+            937.5
+          ],
+          "link": "MKW YFT rSHS Skewers.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d9db6b0abba8",
+          "type": "Fast Travel",
+          "loc": [
+            -101.92578125,
+            991.25
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Wario's Shipyard",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab48eb4a5ac8",
+          "type": "Yoshi's",
+          "loc": [
+            -137.8515625,
+            935
+          ],
+          "link": "MKW YFT rWSh Skewers (West Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e8990bc9eb49",
+          "type": "Yoshi's",
+          "loc": [
+            -113.5,
+            999.25
+          ],
+          "link": "MKW YFT rWSh Skewers (East Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Top of castle ruins, accessible via ramp to the south",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ebfaea9a4b1a",
+          "type": "Yoshi's",
+          "loc": [
+            -121.05078125,
+            984.625
+          ],
+          "link": "MKW YSB rWSh Skewers.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "South of room with hanging boats, accessible via ramp to the south",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a898ba8a79a9",
+          "type": "Fast Travel",
+          "loc": [
+            176.44921875,
+            599.125
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "DK Pass",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_49e8d88b7afb",
+          "type": "Yoshi's",
+          "loc": [
+            250.32421875,
+            492.875
+          ],
+          "link": "MKW YFT rDKP Bread (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b1b6a58aaba",
+          "type": "Fast Travel",
+          "loc": [
+            -229.05078125,
+            566.375
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Birdo",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_88cb3b5b18a9",
+          "type": "Fast Travel",
+          "loc": [
+            -123,
+            334.875
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5073863636363637,
+            0.21307925508878303
+          ],
+          "description": "Cheep Cheep Falls",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa0899b92898",
+          "type": "Dash Food",
+          "loc": [
+            -121.17578125,
+            339.25
+          ],
+          "link": "MKW DFS CCF Candied Apple (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_891a6a580baa",
+          "type": "Dash Food",
+          "loc": [
+            -115.30078125,
+            339.5
+          ],
+          "link": "MKW DFS CCF Taiyaki (Red).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6879db2a38a9",
+          "type": "Dash Food",
+          "loc": [
+            -120.92578125,
+            330.875
+          ],
+          "link": "MKW DFS CCF Takoyaki (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8be86b384859",
+          "type": "Dash Food",
+          "loc": [
+            -115.125,
+            331.125
+          ],
+          "link": "MKW DFS CCF Candied Apple (Cyan).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5017045454545455,
+            0.19943698570809876
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cbabf99b6899",
+          "type": "Dash Food",
+          "loc": [
+            -49.25,
+            319.875
+          ],
+          "link": "MKW DFS CCF Takoyaki (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.48465909090909093,
+            0.08531831961888263
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a891b29f9aa",
+          "type": "Dash Food",
+          "loc": [
+            -40.30078125,
+            320
+          ],
+          "link": "MKW DFS CCF Taiyaki (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb09f9eb5b88",
+          "type": "Dash Food",
+          "loc": [
+            -79.17578125,
+            369.375
+          ],
+          "link": "MKW DFS CCF Taiyaki (Cyan).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99da8b5848a8",
+          "type": "Dash Food",
+          "loc": [
+            -78.05078125,
+            378.5
+          ],
+          "link": "MKW DFS CCF Takoyaki (Yellow).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fbfbc90bc9c9",
+          "type": "Dash Food",
+          "loc": [
+            -69.55078125,
+            375.75
+          ],
+          "link": "MKW DFS CCF Candied Apple (Yellow).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9bd89a893abb",
+          "type": "Fast Travel",
+          "loc": [
+            82.6484375,
+            -914
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Shy Guy",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9081b698879",
+          "type": "Yoshi's",
+          "loc": [
+            -36.3515625,
+            -1013.75
+          ],
+          "link": "MKW YSB rSGB Pita.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_794818681b3a",
+          "type": "Dash Food",
+          "loc": [
+            -56.5,
+            -1033.25
+          ],
+          "link": "MKW DFS rSGB Pita (East Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.565530303030303,
+            0.0978778692074491
+          ],
+          "description": "Serves Pita",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f908988b69f8",
+          "type": "Dash Food",
+          "loc": [
+            -45.25,
+            -1027.5
+          ],
+          "link": "MKW DFS rSGB Roast (Green).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.5568181818181819,
+            0.07838891294932872
+          ],
+          "description": "Serves Roast",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f848db291a6a",
+          "type": "Dash Food",
+          "loc": [
+            -44.1015625,
+            -1037
+          ],
+          "link": "MKW DFS rSGB Bread (Red).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Serves Bread",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_abc83b1b4bab",
+          "type": "Dash Food",
+          "loc": [
+            -38.5,
+            -1042.75
+          ],
+          "link": "MKW DFS rSGB Lava Curry (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.5799242424242423,
+            0.06669553919445648
+          ],
+          "description": "Serves Lava Curry",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a918f979899a",
+          "type": "Dash Food",
+          "loc": [
+            -31.5,
+            -1049.25
+          ],
+          "link": "MKW DFS rSGB Skewers (Red).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.5897727272727273,
+            0.05456907752273712
+          ],
+          "description": "Serves Skewers",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a9dbe8095819",
+          "type": "Dash Food",
+          "loc": [
+            -72.25,
+            -1044.75
+          ],
+          "link": "MKW DFS rSGB Skewers (Green).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.5829545454545455,
+            0.12516240796881767
+          ],
+          "description": "Serves Skewers",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_db497b8ab939",
+          "type": "Dash Food",
+          "loc": [
+            -72.75,
+            -1056.25
+          ],
+          "link": "MKW DFS rSGB Pita (West Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.6003787878787878,
+            0.12602858380251192
+          ],
+          "description": "Serves Pita",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4849aa584bea",
+          "type": "Fast Travel",
+          "loc": [
+            -306.80078125,
+            -925.125
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Daisy",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c8dafb195999",
+          "type": "Fast Travel",
+          "loc": [
+            -608.203125,
+            -674.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Mario",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3ada4a08085a",
+          "type": "Fast Travel",
+          "loc": [
+            -730.92578125,
+            -471.75
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Pauline",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f86bb8c8caea",
+          "type": "Fast Travel",
+          "loc": [
+            -316.30078125,
+            -421
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Toadette",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fafb19c809e8",
+          "type": "Yoshi's",
+          "loc": [
+            -317.92578125,
+            -419.375
+          ],
+          "link": "MKW YDT CC Donuts.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3afb69198918",
+          "type": "Yoshi's",
+          "loc": [
+            -210.3515625,
+            -242.25
+          ],
+          "link": "MKW YDT PS Donuts.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eacaa82b8ac9",
+          "type": "Fast Travel",
+          "loc": [
+            -36.67578125,
+            -693.875
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Luigi",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ca18f8b8bb29",
+          "type": "Yoshi's",
+          "loc": [
+            -32.42578125,
+            -693.125
+          ],
+          "link": "MKW YDT rWS Lava Curry (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "South of tunnel",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_dae949abbb6a",
+          "type": "Yoshi's",
+          "loc": [
+            53.07421875,
+            -538
+          ],
+          "link": "MKW YDT rWS Lava Curry (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3b4a9b9beac9",
+          "type": "Fast Travel",
+          "loc": [
+            372.07421875,
+            -677
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Bowser Jr.",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_98f909292a38",
+          "type": "Yoshi's",
+          "loc": [
+            367.44921875,
+            -678.875
+          ],
+          "link": "MKW YDT rAF Lava Curry.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b4a88bb08c9",
+          "type": "Fast Travel",
+          "loc": [
+            260.32421875,
+            -505.25
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Waluigi",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_79ebfa0b791a",
+          "type": "Fast Travel",
+          "loc": [
+            45.796875,
+            -262.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Baby Luigi",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6a38c87afa59",
+          "type": "Fast Travel",
+          "loc": [
+            536.796875,
+            -446.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Bowser",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a8ac8da0a39",
+          "type": "Fast Travel",
+          "loc": [
+            748.32421875,
+            60.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Baby Daisy",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a869481a2bab",
+          "type": "Fast Travel",
+          "loc": [
+            577.07421875,
+            240.25
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "King Boo",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ebaa08cbab78",
+          "type": "Fast Travel",
+          "loc": [
+            -32,
+            268.25
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.40643939393939393,
+            0.055435253356431353
+          ],
+          "description": "Baby Mario",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a8cb0aaacafb",
+          "type": "Fast Travel",
+          "loc": [
+            44.19921875,
+            478.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Donkey Kong",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8c8ba29d93b",
+          "type": "Yoshi's",
+          "loc": [
+            43.625,
+            484.75
+          ],
+          "link": "MKW YDT rDKP Bread.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.734469696969697,
+            -0.07557384148982244
+          ],
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_080baae9983b",
+          "type": "Fast Travel",
+          "loc": [
+            -341.8515625,
+            309.25
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Yoshi",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_38f8d8194849",
+          "type": "Yoshi's",
+          "loc": [
+            -388.8515625,
+            369.25
+          ],
+          "link": "MKW YDT FO Roast (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3b68eb285a89",
+          "type": "Fast Travel",
+          "loc": [
+            -592.1015625,
+            642.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Baby Peach",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c8fab9cafb5b",
+          "type": "Yoshi's",
+          "loc": [
+            -590.8515625,
+            636.25
+          ],
+          "link": "MKW YDT rPB Skewers.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_dabb7b4bf898",
+          "type": "Fast Travel",
+          "loc": [
+            -818.3515625,
+            534.75
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Lakitu",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_485b991a8999",
+          "type": "Yoshi's",
+          "loc": [
+            -728.67578125,
+            408.125
+          ],
+          "link": "MKW YDT FO Roast (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4b29882918da",
+          "type": "Fast Travel",
+          "loc": [
+            -808.80078125,
+            177.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Koopa Troopa",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b9b4b9998e8",
+          "type": "Fast Travel",
+          "loc": [
+            -619.80078125,
+            -26
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Baby Rosalina",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c8aabb8ae818",
+          "type": "Fast Travel",
+          "loc": [
+            454.32421875,
+            614.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Rosalina",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -522,7 +2647,7 @@
         "y": -2
       },
       "isImage": true,
-      "imageUrl": "data:image/png;base64,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",
+      "imageUrl": "data:image/png;base64,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",
       "tags": [
         "yvm"
       ],
@@ -541,7 +2666,7 @@
         "y": -2
       },
       "isImage": true,
-      "imageUrl": "data:image/png;base64,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",
+      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAFEElEQVR4AXxTa2wUVRg9M223u3ShbejSdksaWh6lWIpUpQgxQCAEElBqYngYEPlh8B+NITHahJpUQoKBnxINYiAqxERUJDSNppLY2hajpmq3pc+Ane72Qbt90O5ud9bvfLs1rVE398z97vnOOXfuzKyJ//8VSfuU4Ktkt8cy03L8BGtyAvaokfLfx39tUCjyq27vutblW45fXF1x7vniiprc4hdrshVSk2OPGmoF9Mi0cPxzA0Pah1LTc34u2H366IqdlY6MlVuR6l6KbFcEp0paUSnIcYWVY48aaumhV8AMmeJj/gZsVGUWln9asOet9LTsNarITk/F/s0rcKI8As+iCWQJjktNjj2KqKWHXllXCZglEzB/g4MieGfDjpeN7flBrM4I4+S+Erx/eg9eO1CG4vVlYjAU60rKlGOPGmrpoZcZIjoo0DG3QaEc8ZJ30xHj1eIO7MnvwYknfNgrd56SnKRC55IcGIahcKbnKsceNdTSQy8zmCUCfSdzG1R7y4+mO1OdSEsJSw+IRqYQDHQiZtu69v9Ri1jMVvjbapXjemKwW7Uk6GUGs2RdLdBHVCRfwkE+x5Bt4pF7G9zL1rKHB81X0Fb7Lvpbb2F8oFU5XsatVli/3Yav9hz6mi6TUg+9zGAWM6VRxBPszVixySEL8KVt37UbBZuPyaNgC5idCWK4667eOTUE73yosx6R6UdcwjCTUPDsK6CXGSQTmXuZssOVHb/jTcVe8LmayQ6kLMqiTpHkWAzv+heQ4sxUsCaHxM+xyAMzKUW9zCCdyNxhJrs9zzjdmTCELS3Mkmt8uDK8WjjSsrBmZyU8q5+DkZyiYE2OPYqcCS1rZjCLmcw27ViSaSMJMenmLk2TKzAx2IWp4W6t8zZUwOFaIi9yBnYkjqjM5NijaGqoUz2scySDWbZkMpuPiLwiJtsMdf6A3oYPMRuagGGYmB6zMHj/LnoaLws3rmBNjj1qqKWHXkiGhiUupmlE5duJgsd62B/AUNf38kKj2ubLDLTfgb/tNh6P9CnHC2ty7FFDLhaLqvdhv1+zTESh2bOTQ/dmJkd1X581g6JdbyAzvxwwDBkm1u5+GyX7auAtrRBODiyn8pYeUI49Q9YQLT30+qyQZjGT2eJA/XSgHfy1+AZgGw7kP/0Slm88JCexMdLXAn5VnlVb4JAvi/Cs2qocezzB8o2H1UNvs8/PKCQy67nBnbG+Fv37BoIh1DXFX67clAqHOr7FcE+z1DHAABRyj+TYg/wMWcuk3sHgDEskMu9wg45Jq+3GVOC+Nq7W+fBgYBTTQUvXfLb9v36O9rr3wD8dwZocexRNj1vqoZdrZjFT6g5uIDOqreZrwdnwNB6HozjzUSOsfgupi71Iz3sSWau2ISL/aHs2BII1OfaooZYeepnBLAmtFmBug55Q0H8ycO+TGO9qeCKECz8uQ7drH/KeOoy80v3ILdlPvYI1OfaooZYeepnBLBH2CP7egPWN0Z7mM1bjlRjvYjIcw6Vvfsfr52vxwZe/oGsiFxHXSgVrcuxRQy099DJDwm4IdMydgAt5i6gRwZHe2rNBPkeSfPG3mnpx9rOfcKEhS8GaHHvUUEsPvbKuETBLJiw4AQk2rssRy3rrzl/r++5ieKy7AaHJEenZGJ9NVgC2cuxRQy09IrouYIZM8TH/BHEmfuXzOyZfQumfjR9Xdt5882vfzaoB3xdVAYXU5NijRizHBPTItHD8BQAA//9IlCzxAAAABklEQVQDAO0biQ/4+oCJAAAAAElFTkSuQmCC",
       "tags": [
         "station"
       ],
@@ -560,7 +2685,7 @@
         "y": -2
       },
       "isImage": true,
-      "imageUrl": "data:image/png;base64,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",
+      "imageUrl": "data:image/png;base64,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",
       "tags": [
         "mission"
       ],
@@ -579,11 +2704,87 @@
         "y": -2
       },
       "isImage": true,
-      "imageUrl": "data:image/png;base64,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",
+      "imageUrl": "data:image/png;base64,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",
       "tags": [
         "ydt",
         "yft",
         "ysb"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Peach Medallion",
+      "iconName": "map-marker",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "medallion"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Fast Travel",
+      "iconName": "map-marker",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADl0lEQVR4AaxVWWhUZxg9d5bELGOapba1NG3SNm0KNtiiCEFcEvVBBYkvPigIIi4oguAWQSe4gAqCirgEfBTFXYMPEk1UEFxwwei4RKMSF0ziJBGdaDIznvNPrs4WX8bLPfzf/33nO+f/7/3vjAOxl5fTbwHKRG7bYCxyS8P4o2otSqanBmlICxgLXhGD3NKG32ZsxqYtXmzbWpMSpCEtLriB+pCBF/mlWDDxV3S960XdjbaUII15EwohTRp4ZQA4LAxyO3C1pRtn779BPaGx8aEfFx91fhXiiGv3SCMzzWk0aYCIgaJ+hPvHsl88uLZmFO5tKP+M+xvLIUTnxBFXbXavYhsJBnZhfGkefspJw6XmTpzzdaD+bge6A30GipVT7UdyxLX74scEg/xMN6onF2F2+VA0vXiHWbW3MWffHcytbYKPc0GxcjNZu8OcuOrJy3DF6yc+ojF/52JkUY55H4GPQYS0b74jy2kBvAUTMxdmTZwrLV2mZ9KwAsRfsTsIhjC6JBevuj6gi49DAvEN8XNxugNB0zOyOAegRjQn1oCruvDAj9O328EQb3v6oBVjoIs7Ekdc9ajXNEbxYw0sC8euv8bJm20YzOfZyV1QA04qaGQZBhSwc+KIqx71GgLr9h1rYGc5Zg9yYgwf16GFZTg4/18cWFSGYT97DBQrp5o42ek89+xJdg9ooBXrCEpAGPdXHgo8bgPFygniaFfJxJUb0ECnZ/WRZlTtvIWqHTci2M5RsOesVZPjoIMWJMF4DGggov99Lz70BbGwshCrphajeurvBoqVU83P3y/9zLicyaWSZod40lBUkIFFFYU4tWQ4JvyTj0evA9h/+aWB4krm6lhbTPOh36WjINutNSUgqYGHLzgjzYGd9c8QCgEOh4UsvsisdBdHwQkXc/oGahta4eJHmEl+gjoTSQ2evunBysMPsX76n3Cz+QSP7lV+rRbCEBQfZ85JkzXTig33GXuol3AnGFik9AXD5mNbd+ox9jS2QuPu862IhnJ7mVtf12K4vexRL9tj7ogBj0xPbwgjigajgsexkqgoycPz9gAamtpRnJ8BzaOh3Dl+8a1tAVMzPeyThrRATTnJwIsOH3adeQpPpgtThn//Bf8NwZT/f/gyj64pVk0cxf3IyXJjN7WkSYP+fzS/b9yTA8uxankNlixdmxJWLPOihVqgJg2gHWhsZMJC89EaPDiSGqTh9+l1NEr4EwAAAP//EzcCUwAAAAZJREFUAwDNix1PxiqZyQAAAABJRU5ErkJggg==",
+      "tags": [
+        "travel"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "? Panel",
+      "iconName": "map-marker",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "panel"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Dash Food",
+      "iconName": "map-marker",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "food"
       ],
       "minZoom": null,
       "maxZoom": null

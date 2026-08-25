@@ -53,11 +53,35 @@
     iconSize: [24,24],
     alt: "Yoshi's Vending Machine"
   });
+  var foodStalls = L.layerGroup([]);
+  const foodIcon = L.icon({
+    iconUrl: 'Icons/Dash_Food_Icon.png',
+    iconSize: [24,24],
+    alt: "Dash Food Stall"
+  });
   var pSwitches = L.layerGroup([]);
   const pSwitchIcon = L.icon({
     iconUrl: 'Icons/P_Switch_Icon.png',
     iconSize: [24,24],
     alt: "P Switch Mission"
+  });
+  var medallions = L.layerGroup([]);
+  const medallionIcon = L.icon({
+    iconUrl: 'Icons/Medallion_Icon.png',
+    iconSize: [24,24],
+    alt: "Peach Medallion"
+  });
+  var panels = L.layerGroup([]);
+  const panelIcon = L.icon({
+    iconUrl: 'Icons/?_Panel_Icon.png',
+    iconSize: [24,24],
+    alt: "? Panel"
+  });
+  var travelPoints = L.layerGroup([]);
+  const travelIcon = L.icon({
+    iconUrl: 'Icons/Travel_Icon.png',
+    iconSize: [24,24],
+    alt: "Fast Travel Destination Point"
   });
   var trainStations = L.layerGroup([]);
   const trainIcon = L.icon({
@@ -78,32 +102,47 @@
     "Yoshi's Food Trucks": foodTrucks,
     "Yoshi's Snack Bars": snackBars,
     "Yoshi's Vending Machines": vendingMachines,
+    "Independent Food Stalls": foodStalls,
     "P Switch Missions": pSwitches,
+    "Peach Medallions": medallions,
+    "? Panels": panels,
+    "Fast Travel Points": travelPoints,
     "Train Stations": trainStations,
     "Miscellaneous": miscLayer,
   }
   const layercontrol = L.control.layers(baseLayers, overlays).addTo(map);
   
   //funcs
-  function myPopup(desc,file) {//returns stringified html element
-    return desc+'<br><br><img src="Screenshots/'+file+'" width="240" height="135">';};
+  function myPopup(desc,type,file) {//returns stringified html element
+    let image = ""
+    if (file!=undefined) {image = '<img src="Screenshots/'+type+'/'+file+'" width="240" height="135">'}
+    if (desc == null) {desc = ""}
+    return '<p>'+desc+'</p>'+image;};
 
   function myIcon(type) {//returns icon
     if (type == "Yoshi's") {return yoshisIcon}
     if (type == "Vending Machine") {return yvmIcon}
+    if (type == "Dash Food") {return foodIcon}
     if (type == "P Switch") {return pSwitchIcon}
+    if (type == "Peach Medallion") {return medallionIcon}
+    if (type == "? Panel") {return panelIcon}
+    if (type == "Fast Travel") {return travelIcon}
     if (type == "Train Station") {return trainIcon}
+    return new L.Icon.Default;
   }
 
   function myGroup(file,type) {//returns layerGroup
     if (type == "Yoshi's") {
-      var t; try {t = String(file).match(/(?:MKW.)(\w+)/)[1]} catch {console.error('No file found, setting layerGroup to miscLayer')}
+      let t; try {t = String(file).match(/(?:MKW.)(\w+)/)[1]} catch {console.error('No file found, setting layerGroup to miscLayer')}
       if (t == "YDT") {return driveThrus}
       if (t == "YFT") {return foodTrucks}
-      if (t == "YSB") {return snackBars}
-    }
+      if (t == "YSB") {return snackBars}}
     if (type == "Vending Machine") {return vendingMachines}
+    if (type == "Dash Food") {return foodStalls}
     if (type == "P Switch") {return pSwitches}
+    if (type == "Peach Medallion") {return medallions}
+    if (type == "? Panel") {return panels}
+    if (type == "Fast Travel") {return travelPoints}
     if (type == "Train Station") {return trainStations}
     return miscLayer;
   }
@@ -116,11 +155,10 @@
     for (let i = 0; i < JSONmarkers.length; i++) {
       L.marker(JSONmarkers[i].loc)
         .setIcon(myIcon(JSONmarkers[i].type))
-        .bindPopup(myPopup(JSONmarkers[i].description,"Yoshi's/"+JSONmarkers[i].link))
-        .addTo(myGroup(JSONmarkers[i].link,JSONmarkers[i].type));
-    }
-console.log(Object.values(overlays))
-    for (let i = 1; i < Object.keys(overlays).length; i++) {
+        .bindPopup(myPopup(JSONmarkers[i].description,JSONmarkers[i].type,JSONmarkers[i].link))
+        .addTo(myGroup(JSONmarkers[i].link,JSONmarkers[i].type));}
+
+    for (let i = 1; i < Object.keys(overlays).length -1; i++) {
       if (Object.values(overlays)[i].getLayers().length != 0) {
         Object.values(overlays)[i].addTo(map);}}
   })
