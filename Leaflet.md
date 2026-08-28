@@ -15,5 +15,5 @@ minZoom: -2
 maxZoom: 3
 defaultZoom: -2
 unit: meters
-scale: 4.8
+scale: 6.4
 ```

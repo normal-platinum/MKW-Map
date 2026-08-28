@@ -2,6 +2,8 @@
 <html lang="en" style="margin:0;padding:0;">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="wIZJzWwHr5Th1Br5-QrY8nWo8YvjYj3PIrV2vsXlY_A" />
+  <!-- Yes, I am bowing to the evil known as SEO. It's unfortunate.' -->
   <title>Mario Kart World Open Interactive Map - normal-platinum.github.io</title>
   <link rel="icon" type="image/png" href="Icons/YVM_Icon.png">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -89,6 +91,12 @@
     iconSize: [24,24],
     alt: "Train Station"
   });
+  var signalBugs = L.layerGroup([]);
+  const signalBugIcon = L.icon({
+    iconUrl: 'Icons/Signal_Bug_Icon.png',
+    iconSize: [24,24],
+    alt: "Signal Bug Spawn Location"
+  });
   var miscLayer = L.layerGroup([]);
   
   //layer controls
@@ -108,6 +116,7 @@
     "? Panels": panels,
     "Fast Travel Points": travelPoints,
     "Train Stations": trainStations,
+    "Signal Bugs": signalBugs,
     "Miscellaneous": miscLayer,
   }
   const layercontrol = L.control.layers(baseLayers, overlays).addTo(map);
@@ -128,6 +137,7 @@
     if (type == "? Panel") {return panelIcon}
     if (type == "Fast Travel") {return travelIcon}
     if (type == "Train Station") {return trainIcon}
+    if (type == "Signal Bug") {return signalBugIcon}
     return new L.Icon.Default;
   }
 
@@ -144,6 +154,7 @@
     if (type == "? Panel") {return panels}
     if (type == "Fast Travel") {return travelPoints}
     if (type == "Train Station") {return trainStations}
+    if (type == "Signal Bug") {return signalBugs}
     return miscLayer;
   }
   

@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "mkw-map",
-      "lastAccessed": 1787695428240,
+      "lastAccessed": 1787876989701,
       "markers": [
         {
           "id": "ID_af9eadaf929a",
@@ -130,15 +130,18 @@
           "id": "ID_af7afd98d53b",
           "type": "Vending Machine",
           "loc": [
-            -29,
-            -596
+            10,
+            -502.5
           ],
           "link": "MKW YVM rWS3.png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
-          "description": "Rest area southeast of rWS",
+          "percent": [
+            -0.7613636363636364,
+            -0.0173235166738848
+          ],
+          "description": "Gas station area southeast of rWS",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -269,7 +272,7 @@
             438,
             25
           ],
-          "link": "MKW YVM MC.png",
+          "link": "MKW YVM MC1.png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
@@ -315,13 +318,16 @@
           "id": "ID_a781cea80d03",
           "type": "Train Station",
           "loc": [
-            -78,
-            -119
+            -80,
+            -118
           ],
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            -0.1787878787878788,
+            0.1385881333910784
+          ],
           "description": "Station northwest of PS",
           "minZoom": null,
           "maxZoom": null,
@@ -331,8 +337,8 @@
           "id": "ID_bae732863c01",
           "type": "Train Station",
           "loc": [
-            500,
-            333
+            498.875,
+            331.375
           ],
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
@@ -348,7 +354,7 @@
           "type": "Train Station",
           "loc": [
             128,
-            678
+            679.625
           ],
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
@@ -363,13 +369,16 @@
           "id": "ID_b12ff39b8d00",
           "type": "Train Station",
           "loc": [
-            -657,
-            839
+            -658.75,
+            839.125
           ],
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            1.2714015151515152,
+            1.141186660892161
+          ],
           "description": "Station southwest of rPB",
           "minZoom": null,
           "maxZoom": null,
@@ -606,7 +615,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": null,
+          "description": "Serves Snacks (1st Set)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -623,7 +632,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": null,
+          "description": "Serves Snacks (1st Set)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -640,7 +649,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": null,
+          "description": "Serves Snacks (1st Set)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -768,13 +777,16 @@
           "id": "ID_d80889a8f899",
           "type": "Fast Travel",
           "loc": [
-            -971.1015625,
-            -411.75
+            -970.75,
+            -411.125
           ],
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            -0.6229166666666667,
+            1.6816803811173668
+          ],
           "description": "DK Spaceport",
           "minZoom": null,
           "maxZoom": null,
@@ -997,8 +1009,8 @@
           "id": "ID_5b19d9b91828",
           "type": "Yoshi's",
           "loc": [
-            -300.55078125,
-            692.75
+            -301,
+            693
           ],
           "link": "MKW YFT SSS Pizza (Blue).png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
@@ -1204,7 +1216,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Parking lot behind curve depot",
+          "description": "Parking lot behind curve depot. Serves snacks (3rd set)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -1279,14 +1291,17 @@
           "id": "ID_2898dad9cb78",
           "type": "Yoshi's",
           "loc": [
-            450.69921875,
-            -985.5
+            453.75,
+            -986
           ],
           "link": "MKW YFT rAF Lava Curry (Blue).png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            -1.493939393939394,
+            -0.7860545690775227
+          ],
           "description": "Main airship's stern (back)",
           "minZoom": null,
           "maxZoom": null,
@@ -2456,7 +2471,7 @@
             43.625,
             484.75
           ],
-          "link": "MKW YDT rDKP Bread.png",
+          "link": "MKW YDT rDKP Bread (Yellow).png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
@@ -2612,6 +2627,1996 @@
           "command": false,
           "percent": null,
           "description": "Rosalina",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b918987ab988",
+          "type": "Yoshi's",
+          "loc": [
+            113.125,
+            659
+          ],
+          "link": "MKW YSB rDKP Bread.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_89e84ae90a5b",
+          "type": "Yoshi's",
+          "loc": [
+            504.25,
+            328.125
+          ],
+          "link": "MKW YSB SP Popcorn (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_984b3a2b4aab",
+          "type": "Yoshi's",
+          "loc": [
+            494.19921875,
+            333.375
+          ],
+          "link": "MKW YSB SP Bread (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2af8981beb18",
+          "type": "Yoshi's",
+          "loc": [
+            122.375,
+            677.375
+          ],
+          "link": "MKW YSB rDKP Lava Curry (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7939e878391a",
+          "type": "Yoshi's",
+          "loc": [
+            133.19921875,
+            681.625
+          ],
+          "link": "MKW YSB rDKP Ice Cream (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5bc9bb4b6919",
+          "type": "Yoshi's",
+          "loc": [
+            348.44921875,
+            455.125
+          ],
+          "link": "MKW YDT rDKP Burger.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_08b8692b7889",
+          "type": "Yoshi's",
+          "loc": [
+            201.44921875,
+            427.375
+          ],
+          "link": "MKW YDT rDKP Bread (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6998f92b5bf9",
+          "type": "Yoshi's",
+          "loc": [
+            577.25,
+            639.125
+          ],
+          "link": "MKW YSB SP Ice Cream.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Library level",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_193a5be999ea",
+          "type": "Yoshi's",
+          "loc": [
+            577.57421875,
+            627
+          ],
+          "link": "MKW YSB SP Bread.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Library level",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_78ab8b3a49ba",
+          "type": "default",
+          "loc": [
+            578.07421875,
+            625.25
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8a8b9286b78",
+          "type": "Yoshi's",
+          "loc": [
+            402.625,
+            855.375
+          ],
+          "link": "MKW YDT rSHS Ice Cream.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_08cb08fb099a",
+          "type": "Yoshi's",
+          "loc": [
+            417.75,
+            882.875
+          ],
+          "link": "MKW YDT rSHS Cake.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_582988fa1a88",
+          "type": "Yoshi's",
+          "loc": [
+            275.32421875,
+            972.25
+          ],
+          "link": "MKW YSB rSHS Ice Cream.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a3acb798a4a",
+          "type": "Yoshi's",
+          "loc": [
+            -45.42578125,
+            645.25
+          ],
+          "link": "MKW YDT rWSh Skewers.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1ac91b08696b",
+          "type": "Yoshi's",
+          "loc": [
+            -83.92578125,
+            594
+          ],
+          "link": "MKW YDT rWSh Ice Cream.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9091b886b19",
+          "type": "default",
+          "loc": [
+            -200.25,
+            479.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7265151515151516,
+            0.3469034213945431
+          ],
+          "description": "Campfire",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_297b6bc9ea69",
+          "type": "Yoshi's",
+          "loc": [
+            -232.42578125,
+            568.375
+          ],
+          "link": "MKW YDT SSS Skewers.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cbab5a8be91a",
+          "type": "Yoshi's",
+          "loc": [
+            -311.3515625,
+            660.25
+          ],
+          "link": "MKW YSB SSS Pizza.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6bab3a69ba2b",
+          "type": "Yoshi's",
+          "loc": [
+            -290.8515625,
+            690.25
+          ],
+          "link": "MKW YSB SSS Sushi.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Serves Sushi",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4b698889683b",
+          "type": "Yoshi's",
+          "loc": [
+            -281.5,
+            691
+          ],
+          "link": "MKW YSB SSS Fish & Chips (North Market).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.0469696969696969,
+            0.4876569943698571
+          ],
+          "description": "Serves Fish & Chips",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cbdb9b2a7a3b",
+          "type": "Yoshi's",
+          "loc": [
+            -285.75,
+            684.875
+          ],
+          "link": "MKW YSB SSS Fish & Chips (South Market).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.0376893939393939,
+            0.49501948895625814
+          ],
+          "description": "Serves Fish & Chips",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb7bcb5b49fb",
+          "type": "Yoshi's",
+          "loc": [
+            -369.30078125,
+            661.5
+          ],
+          "link": "MKW YSB SSS Fish & Chips (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Raised patio, accessible via ramp to the south",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3ab9c9782b28",
+          "type": "Yoshi's",
+          "loc": [
+            -432.92578125,
+            657.375
+          ],
+          "link": "MKW YDT SSS Pizza.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa6809884858",
+          "type": "Yoshi's",
+          "loc": [
+            -201.42578125,
+            445.625
+          ],
+          "link": "MKW YDT rWSh Fish & Chips.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4a4bda2878f9",
+          "type": "Yoshi's",
+          "loc": [
+            -367.80078125,
+            497.75
+          ],
+          "link": "MKW YDT SSS Ice Cream.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d898cb59c8f8",
+          "type": "Yoshi's",
+          "loc": [
+            -89.92578125,
+            406.375
+          ],
+          "link": "MKW YDT CCF Sushi (Red).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_588a3a38a95a",
+          "type": "Yoshi's",
+          "loc": [
+            -274.625,
+            350.5
+          ],
+          "link": "MKW YDT CCF Sushi (Cyan).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.531060606060606,
+            0.4757470766565613
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6ac80869eab8",
+          "type": "Yoshi's",
+          "loc": [
+            -238.5,
+            248
+          ],
+          "link": "MKW YDT CCF Sushi (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.37575757575757573,
+            0.41316587267215243
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69b8c809d8f8",
+          "type": "Yoshi's",
+          "loc": [
+            -27.05078125,
+            175.5
+          ],
+          "link": "MKW YDT CCF Pancakes.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_193bfa0ae908",
+          "type": "Yoshi's",
+          "loc": [
+            -500.42578125,
+            278.375
+          ],
+          "link": "MKW YDT FO Roast (Red).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ca89cb6a391a",
+          "type": "Yoshi's",
+          "loc": [
+            -526.875,
+            402
+          ],
+          "link": "MKW YDT FO Fruit.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6090909090909091,
+            0.9127327847553053
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eaf908cae86b",
+          "type": "Yoshi's",
+          "loc": [
+            -561,
+            213
+          ],
+          "link": "MKW YSB FO Fruit.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.32272727272727275,
+            0.9718492854049372
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_086878784b4b",
+          "type": "Yoshi's",
+          "loc": [
+            -544.17578125,
+            197.375
+          ],
+          "link": "MKW YSB FO Roast.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99893bd9e909",
+          "type": "Yoshi's",
+          "loc": [
+            -933.92578125,
+            354
+          ],
+          "link": "MKW YDT rDDJ Roast.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bb884a4b8a4b",
+          "type": "Yoshi's",
+          "loc": [
+            -813,
+            729.5
+          ],
+          "link": "MKW YDT GBR Pancakes.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.1053030303030302,
+            1.4084019055868342
+          ],
+          "description": "Floating island north of track",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3a8a68085a79",
+          "type": "Yoshi's",
+          "loc": [
+            -659.30078125,
+            844.375
+          ],
+          "link": "MKW YSB rPB Sushi (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_da0b4b6898a8",
+          "type": "Yoshi's",
+          "loc": [
+            -658.25,
+            833.625
+          ],
+          "link": "MKW YSB rPB Pizza (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.263068181818182,
+            1.140320485058467
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68fa7939a949",
+          "type": "Yoshi's",
+          "loc": [
+            -596.125,
+            904.875
+          ],
+          "link": "MKW YSB rPB Skewers.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.3710227272727273,
+            1.0326981377219575
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4b2a985ae87b",
+          "type": "Yoshi's",
+          "loc": [
+            -537.80078125,
+            898.375
+          ],
+          "link": "MKW YDT rPB Fish & Chips.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb2b1b19b91b",
+          "type": "Yoshi's",
+          "loc": [
+            -557.67578125,
+            962.125
+          ],
+          "link": "MKW YSB rPB Fish & Chips (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_08d94aeac9e8",
+          "type": "Yoshi's",
+          "loc": [
+            -587.92578125,
+            979.375
+          ],
+          "link": "MKW YSB rPB Cake.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b4918ab6b1a",
+          "type": "Yoshi's",
+          "loc": [
+            -456.25,
+            887.375
+          ],
+          "link": "MKW YSB rPB Fish & Chips (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.3445075757575757,
+            0.7903854482459939
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f818ab49c91a",
+          "type": "Yoshi's",
+          "loc": [
+            -504.625,
+            704.5
+          ],
+          "link": "MKW YSB rPB Burger.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.0674242424242424,
+            0.8741879601559116
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5939ea6aeaa8",
+          "type": "default",
+          "loc": [
+            184.44921875,
+            184.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Campfire",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7a3b3b5a1b89",
+          "type": "Yoshi's",
+          "loc": [
+            498.57421875,
+            190.875
+          ],
+          "link": "MKW YDT MC Ice Cream.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4b5819ea0948",
+          "type": "Yoshi's",
+          "loc": [
+            859.25,
+            -60.75
+          ],
+          "link": "MKW YSB AH Pancakes.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.09204545454545454,
+            -1.4885231702035513
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b69bae8497b",
+          "type": "default",
+          "loc": [
+            877.6484375,
+            -11.75
+          ],
+          "link": "MKW Bino AH (Lilypad).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Binoculars",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb6a8ba88979",
+          "type": "default",
+          "loc": [
+            881.82421875,
+            -18.375
+          ],
+          "link": "MKW Nabbit AH (Lilypad).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Nabbit",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_48ab59785b0b",
+          "type": "Yoshi's",
+          "loc": [
+            871,
+            2.375
+          ],
+          "link": "MKW YDT AH Pancakes (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.0035984848484848487,
+            -1.508878302295366
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a858c82bea08",
+          "type": "Yoshi's",
+          "loc": [
+            826.44921875,
+            -115.625
+          ],
+          "link": "MKW YDT AH Pancakes (Red).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_dbbb3ba8b959",
+          "type": "default",
+          "loc": [
+            752.44921875,
+            -55.375
+          ],
+          "link": "MKW ChCh AH.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Chargin' Chuck",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4ad98b6a39ea",
+          "type": "Yoshi's",
+          "loc": [
+            528.375,
+            23.75
+          ],
+          "link": "MKW YSB MC Donuts.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.03598484848484849,
+            -0.9153313122563881
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c8b93b591b49",
+          "type": "Yoshi's",
+          "loc": [
+            528.19921875,
+            17.75
+          ],
+          "link": "MKW YSB MC Snacks2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Serves Snacks (2nd set)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_dbb829c8f908",
+          "type": "Yoshi's",
+          "loc": [
+            528.07421875,
+            11.75
+          ],
+          "link": "MKW YSB MC Lunchbox.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7989da0a1ac8",
+          "type": "Yoshi's",
+          "loc": [
+            382.94921875,
+            -74.25
+          ],
+          "link": "MKW YDT MC Snacks.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Serves Snacks (all 3 sets)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fae86bca084b",
+          "type": "Yoshi's",
+          "loc": [
+            219.25,
+            -329.375
+          ],
+          "link": "MKW YDT rTF Snacks (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.4990530303030303,
+            -0.3798181030749242
+          ],
+          "description": "Serves Snacks (all 3 sets)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_caa9fac8aa9b",
+          "type": "Yoshi's",
+          "loc": [
+            466.19921875,
+            -200.5
+          ],
+          "link": "MKW YDT MC Pizza.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_98191b7abb88",
+          "type": "Vending Machine",
+          "loc": [
+            469.57421875,
+            -198.625
+          ],
+          "link": "MKW YVM MC2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Yoshi's Drive-through parking lot",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_78889a2978e9",
+          "type": "Yoshi's",
+          "loc": [
+            312.75,
+            112.25
+          ],
+          "link": "MKW YDT rMMM Bread.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.17007575757575757,
+            -0.541792983975747
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0b18fbdbd9fa",
+          "type": "Yoshi's",
+          "loc": [
+            269.44921875,
+            114.125
+          ],
+          "link": "MKW YDT rMMM Dairy (Northeast Cyan).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ca590959c948",
+          "type": "default",
+          "loc": [
+            388.296875,
+            123.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Campfire",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1a49e8ca4a2a",
+          "type": "Yoshi's",
+          "loc": [
+            90.94921875,
+            -8.5
+          ],
+          "link": "MKW YDT rMMM Dairy (Southwest Cyan).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8e9181a5858",
+          "type": "default",
+          "loc": [
+            60.69921875,
+            -96.375
+          ],
+          "link": "MKW ChCh rMMM.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Chargin' Chuck",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8aa8b7b89da",
+          "type": "Yoshi's",
+          "loc": [
+            11.94921875,
+            -120.875
+          ],
+          "link": "MKW YDT rMMM Dairy (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ead9da196a99",
+          "type": "Yoshi's",
+          "loc": [
+            294.6484375,
+            -322.75
+          ],
+          "link": "MKW YFT rTF Lunchbox (Yellow).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a2bf84b7acb",
+          "type": "Yoshi's",
+          "loc": [
+            367.6484375,
+            -360
+          ],
+          "link": "MKW YDT rTF Snacks (Cyan).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Serves Snacks (all 3 sets)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a7a69baeac8",
+          "type": "Yoshi's",
+          "loc": [
+            -85.17578125,
+            -116.75
+          ],
+          "link": "MKW YSB PS Donuts (NW Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b0bf89a98b9",
+          "type": "Yoshi's",
+          "loc": [
+            -74.125,
+            -119.125
+          ],
+          "link": "MKW YSB PS Dairy (NW Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.18049242424242423,
+            0.12841056734517106
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_099ae8c969b8",
+          "type": "default",
+          "loc": [
+            -70.125,
+            336.875
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5104166666666666,
+            0.12148116067561715
+          ],
+          "description": "Giant Coin Pile \n(Top of shrine)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_594a192a5b99",
+          "type": "default",
+          "loc": [
+            -94.875,
+            370.875
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5619318181818181,
+            0.16435686444348202
+          ],
+          "description": "Giant Coin Pile (River Bank)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a681b5ada68",
+          "type": "default",
+          "loc": [
+            133.1484375,
+            465.25
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Nabbit",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e95889188acb",
+          "type": "default",
+          "loc": [
+            20.8984375,
+            -183.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Cliff)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ca082849eb8a",
+          "type": "Yoshi's",
+          "loc": [
+            -239.5,
+            -11.5
+          ],
+          "link": "MKW YSB PS Cake.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.017424242424242425,
+            0.41489822433954093
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a94bca297afa",
+          "type": "Yoshi's",
+          "loc": [
+            -239.42578125,
+            9.625
+          ],
+          "link": "MKW YSB PS Lunchbox.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_781acab87aea",
+          "type": "Yoshi's",
+          "loc": [
+            -256.875,
+            -11.25
+          ],
+          "link": "MKW YSB PS Donuts.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.017045454545454544,
+            0.44499783456041575
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_58fbaa9918db",
+          "type": "Yoshi's",
+          "loc": [
+            -256.75,
+            9.875
+          ],
+          "link": "MKW YSB PS Pancakes.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.014962121212121211,
+            0.44478129060199223
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0949a81a8ba9",
+          "type": "Yoshi's",
+          "loc": [
+            -803.5,
+            -99
+          ],
+          "link": "MKW YDT rKTB Fish & Chips.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.15,
+            1.3919445647466435
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_88b8a8a98a2a",
+          "type": "Yoshi's",
+          "loc": [
+            -984.92578125,
+            -406.5
+          ],
+          "link": "MKW YDT DKS Fruit.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Under track",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4acb88a90809",
+          "type": "Yoshi's",
+          "loc": [
+            -769.55078125,
+            -681.25
+          ],
+          "link": "MKW YSB WS Snacks3.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Serves Snacks (3rd set)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b59e85b383b",
+          "type": "Yoshi's",
+          "loc": [
+            -735.30078125,
+            -663.875
+          ],
+          "link": "MKW YDT WS Skewers.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bb188bc9fb9a",
+          "type": "Yoshi's",
+          "loc": [
+            -722.92578125,
+            -462.5
+          ],
+          "link": "MKW YDT CC Fish & Chips.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb2b68cb7bfa",
+          "type": "Yoshi's",
+          "loc": [
+            -620.80078125,
+            -316.375
+          ],
+          "link": "MKW YSB CC Burger.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_089989b91a09",
+          "type": "Yoshi's",
+          "loc": [
+            -491.42578125,
+            -291.125
+          ],
+          "link": "MKW YSB CC Snacks.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Serves Snacks (all 3 sets)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8ab8b8a9f8f9",
+          "type": "Yoshi's",
+          "loc": [
+            -572.625,
+            -475.75
+          ],
+          "link": "MKW YDT CC Cake.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.7208333333333333,
+            0.9919878735383283
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a9bab1948f9",
+          "type": "Yoshi's",
+          "loc": [
+            -588.92578125,
+            -357.625
+          ],
+          "link": "MKW YSB CC Cake.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8eaf9280b2b",
+          "type": "default",
+          "loc": [
+            -535,
+            -612.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.928030303030303,
+            0.9268081420528367
+          ],
+          "description": "Giant Coin Pile (Mesa)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eaeb09bafb98",
+          "type": "Yoshi's",
+          "loc": [
+            -594.67578125,
+            -668.625
+          ],
+          "link": "MKW YDT WS Burger.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aae93a89890a",
+          "type": "Yoshi's",
+          "loc": [
+            -568.703125,
+            -833
+          ],
+          "link": "MKW YDT WS Fruit.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3beb5bf8796a",
+          "type": "Yoshi's",
+          "loc": [
+            -599.55078125,
+            -1002.25
+          ],
+          "link": "MKW YDT rDH Pita.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fa38082b8958",
+          "type": "Yoshi's",
+          "loc": [
+            -348.5,
+            -835.875
+          ],
+          "link": "MKW YDT MBC Burger (Red).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.2664772727272726,
+            0.6037245560848852
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a595a4a2a7b",
+          "type": "Yoshi's",
+          "loc": [
+            -404.25,
+            -656.625
+          ],
+          "link": "MKW YDT MBC Burger (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.9948863636363636,
+            0.700303161541793
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a97a89c9792b",
+          "type": "Yoshi's",
+          "loc": [
+            -337.30078125,
+            -709
+          ],
+          "link": "MKW YSB MBC Burger (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb79cbda0949",
+          "type": "Yoshi's",
+          "loc": [
+            -321.875,
+            -692.625
+          ],
+          "link": "MKW YSB MBC Burger (Yellow).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.049431818181818,
+            0.5576006929406669
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_093a193958db",
+          "type": "Yoshi's",
+          "loc": [
+            -284.92578125,
+            -583.25
+          ],
+          "link": "MKW YDT MBC Pizza.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8a8c89a0bb8",
+          "type": "Yoshi's",
+          "loc": [
+            286.32421875,
+            352.25
+          ],
+          "link": "MKW YDT DD Donuts.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6959d8aa9b38",
+          "type": "Yoshi's",
+          "loc": [
+            -159,
+            -553.5
+          ],
+          "link": "MKW YDT MBC Snacks.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.8386363636363636,
+            0.2754439151147683
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b2bd93a58ab",
+          "type": "Signal Bug",
+          "loc": [
+            -116.75,
+            -718.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.0886363636363636,
+            0.20225205716760503
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_29a9d95aeb48",
+          "type": "Yoshi's",
+          "loc": [
+            -181.55078125,
+            -759.125
+          ],
+          "link": "MKW YSB MBC Burger (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_194a9aaab98b",
+          "type": "Yoshi's",
+          "loc": [
+            -174.625,
+            -750.875
+          ],
+          "link": "MKW YSB MBC Pita (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.137689393939394,
+            0.3025119099177133
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b86b3848fb1a",
+          "type": "Yoshi's",
+          "loc": [
+            -101.42578125,
+            -911
+          ],
+          "link": "MKW YDT rSGB Pita (Pink).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c87948589b49",
+          "type": "Yoshi's",
+          "loc": [
+            13.25,
+            -1021.5
+          ],
+          "link": "MKW YDT rSGB Pita (Cyan).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.5477272727272726,
+            -0.022953659592897357
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb3b48d9faea",
+          "type": "Vending Machine",
+          "loc": [
+            -28.05078125,
+            -595.875
+          ],
+          "link": "MKW YVM rWS5.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Behind gas station south of rWS",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_abb82a784a0b",
+          "type": "Yoshi's",
+          "loc": [
+            -1.80078125,
+            -487.375
+          ],
+          "link": "MKW YDT rWS Donuts.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7898ea983a8a",
+          "type": "Yoshi's",
+          "loc": [
+            151.82421875,
+            -672.875
+          ],
+          "link": "MKW YSB rWS Lava Curry.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1a1889c849ca",
+          "type": "Yoshi's",
+          "loc": [
+            434.07421875,
+            -897.75
+          ],
+          "link": "MKW YDT rAF Bread.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Top of tower",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f908c95b9978",
+          "type": "Yoshi's",
+          "loc": [
+            446.375,
+            -982.125
+          ],
+          "link": "MKW YSB rAF Lunchbox.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.4880681818181818,
+            -0.7732784755305327
+          ],
+          "description": "Between rear propeller and stern deck",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a4b084b9b4a",
+          "type": "Yoshi's",
+          "loc": [
+            722.5,
+            -627.875
+          ],
+          "link": "MKW YSB BC Bread.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.9513257575757575,
+            -1.2516240796881768
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6af85bd878e8",
+          "type": "Yoshi's",
+          "loc": [
+            720.75,
+            -634.625
+          ],
+          "link": "MKW YSB BC Lava Curry (Blue).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.9615530303030303,
+            -1.2485924642702468
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_589b6b6a9978",
+          "type": "Yoshi's",
+          "loc": [
+            729.5,
+            -636.75
+          ],
+          "link": "MKW YSB BC Lunchbox.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.9647727272727272,
+            -1.263750541359896
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d9385bf859c9",
+          "type": "Yoshi's",
+          "loc": [
+            731.5,
+            -630.375
+          ],
+          "link": "MKW YSB BC Lava Curry (Cyan).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.9551136363636363,
+            -1.267215244694673
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aadb5aabf979",
+          "type": "default",
+          "loc": [
+            725.32421875,
+            -636.375
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Nabbit",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -2785,6 +4790,25 @@
       "imageUrl": "data:image/png;base64,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",
       "tags": [
         "food"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Signal Bug",
+      "iconName": "map-marker",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "sigbug"
       ],
       "minZoom": null,
       "maxZoom": null

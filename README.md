@@ -2,7 +2,7 @@
 [![Interactive Leaflet Map Screenshot](https://github.com/normal-platinum/MKW-Map/blob/main/preview.png)](https://normal-platinum.github.io/MKW-Map/)
 *Click the map above to explore the live interactive version.*
 
-This repo has been converted into a workspace for Obsidian Leaflet!<br> 
+This repo started as a fork of [MrL314's MKW-Map](https://github.com/MrL314/MKW-RoadMap), but has been converted into a workspace for Obsidian Leaflet!<br> 
 The original readme can be found [here](https://github.com/normal-platinum/MKW-Map/blob/main/Maps/Maps.md).
 
 Work by Lumi Platinum aka normal-platinum<br>
@@ -23,7 +23,9 @@ Contributors:
 2) Obsidian Setup
 	1) In Obsidian, open the folder where you cloned to as a new vault
 	2) Enable plugins (required for Leaflet)
+	3) Double click on "Leaflet" in the left outline to open up the file
 3) Edit! (Obsidian Leaflet Tips)
+	- You will most likely want to enable the road layer, using the 3 stacked rhombus icon in the top right.
 	- While in editing view, you can change parameters of the map. In order to view the map, either toggle reader view or click outside the code block.
 	- Be careful when dragging the map, as markers can also be dragged.
 	- Please do NOT "Convert to Code Block"! This converts the marker's JSON to YAML, which will cause that marker to not appear on the website. 
@@ -35,10 +37,16 @@ Contributors:
 ## Contributions wanted
 - Large Undertakings
 	- More convenient way to contribute markers
-	- More marker metadata (tracks/routes active, spawn probabilities)
+	- More marker metadata (tracks/routes active, spawn probabilities, mission/checkpoint paths)
 	- Option for non-homogenous markers (eg. Fast Travel --> each Course/Character, Yoshi's --> each Dash Food)
-- P Switch Missions and Peach Medallions
+- Free Roam sections of GBR, rDDJ, rSHS, DBB, rAF, SSS, rWSh, rKTB
+- P Switch Missions (have 0%), Peach Medallions (have 0%), and ? Panels (have 0%)
 - Yoshi's Drive-Throughs, Snack Bars, Food Trucks, and Vending Machines
-- Track/Route/Rally Checkpoints
+- Track/Route/Rally Checkpoints (have 0)
+- Giant Coin Piles (have 4)
+- Nabbit (have 2), Chargin' Chuck (have 2)
+- Signal Bugs/enemy spawn locations (try to include probability)
+- Binoculars (have 1), RVs (have 1), campfires (have 3), other random objects
+- Anything else you want to map out!
 ### Naming Conventions
 Please refer to [Names.md](https://github.com/normal-platinum/MKW-Map/blob/main/Names.md)
