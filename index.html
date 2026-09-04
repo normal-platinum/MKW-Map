@@ -2,6 +2,7 @@
 <html lang="en" style="margin:0;padding:0;">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mario Kart World Open Interactive Map - Free and Open Source! View road, rail, and traffic maps! Find collectibles, Yoshi's Dash Food, Chargin' Chucks, UFOs, Nabbits, and more!">
   <meta name="google-site-verification" content="wIZJzWwHr5Th1Br5-QrY8nWo8YvjYj3PIrV2vsXlY_A" />
   <!-- Yes, I am bowing to the evil known as SEO. It's unfortunate.' -->
   <title>Mario Kart World Open Interactive Map - normal-platinum.github.io</title>
@@ -12,11 +13,17 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.css"/>
+  <script src="https://unpkg.com/leaflet-groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.js"></script>
+  <style>
+    .leaflet-control-layers-group{padding-left:15px;margin-bottom:5px;}
+    .leaflet-control-layers-group-label{font-weight:bold;display:block;margin-left:-15px;margin-bottom:3px;}
+  </style>
 </head>
 <body style="margin:0;padding:0;">
   <div id="map" style="width:100vw;height: 100vh;"></div>
 </body>
-<script>
+<script type="module">
   //init map
   var map = L.map('map', {
     crs: L.CRS.Simple,
@@ -26,12 +33,13 @@
     maxZoom: 4,
   });
   var bounds = [[1110,-1217],[-1195,1243]];
-  var bgMap = L.imageOverlay('Maps/Full_Map_L1.png',bounds).addTo(map);
+  var bgMap = L.imageOverlay('Maps/Full_Map_L1.png',bounds, {
+  attribution: '<a href="https://github.com/normal-platinum/MKW-Map">normal-platinum/MKW-Map</a>'}).addTo(map);
   var noRoadsMap = L.imageOverlay('Maps/World_Map_(NoIcons).png',bounds);
   var trafficMap = L.imageOverlay('Maps/Traffic_Map.png',bounds);
   map.setMaxBounds([[1500,1500],[-1500,-1500]]);
-  
-  //grab data.json
+
+  //func for grabbing data.json
   async function loadDataJSON() {try {
     const response = await fetch('.obsidian/plugins/obsidian-leaflet-plugin/data.json');
     if (!response.ok) {throw new Error('HTTP error when fetching data.json');}
@@ -40,122 +48,139 @@
     console.error('Could not load data.json:', error);
   }}
   
-  //icons and layerGroups
-  var driveThrus = L.layerGroup([]);
-  var foodTrucks = L.layerGroup([]);
-  var snackBars = L.layerGroup([]);
-  const yoshisIcon = L.icon({
-    iconUrl: 'Icons/Yoshis_Icon.png',
-    iconSize: [24,24],
-    alt: "Yoshi's Restaurant"
-  });
-  var vendingMachines = L.layerGroup([]);
-  const yvmIcon = L.icon({
-    iconUrl: 'Icons/YVM_Icon.png',
-    iconSize: [24,24],
-    alt: "Yoshi's Vending Machine"
-  });
-  var foodStalls = L.layerGroup([]);
-  const foodIcon = L.icon({
-    iconUrl: 'Icons/Dash_Food_Icon.png',
-    iconSize: [24,24],
-    alt: "Dash Food Stall"
-  });
-  var pSwitches = L.layerGroup([]);
-  const pSwitchIcon = L.icon({
-    iconUrl: 'Icons/P_Switch_Icon.png',
-    iconSize: [24,24],
-    alt: "P Switch Mission"
-  });
-  var medallions = L.layerGroup([]);
-  const medallionIcon = L.icon({
-    iconUrl: 'Icons/Medallion_Icon.png',
-    iconSize: [24,24],
-    alt: "Peach Medallion"
-  });
-  var panels = L.layerGroup([]);
-  const panelIcon = L.icon({
-    iconUrl: 'Icons/?_Panel_Icon.png',
-    iconSize: [24,24],
-    alt: "? Panel"
-  });
-  var travelPoints = L.layerGroup([]);
-  const travelIcon = L.icon({
-    iconUrl: 'Icons/Travel_Icon.png',
-    iconSize: [24,24],
-    alt: "Fast Travel Destination Point"
-  });
-  var trainStations = L.layerGroup([]);
-  const trainIcon = L.icon({
-    iconUrl: 'Icons/Train_Icon.png',
-    iconSize: [24,24],
-    alt: "Train Station"
-  });
-  var signalBugs = L.layerGroup([]);
-  const signalBugIcon = L.icon({
-    iconUrl: 'Icons/Signal_Bug_Icon.png',
-    iconSize: [24,24],
-    alt: "Signal Bug Spawn Location"
-  });
-  var miscLayer = L.layerGroup([]);
+  //init glossary
+  function glossEntry (imagePath, altText, groupNames) {
+    if (imagePath == "default") {this.icon = new L.Icon.Default}
+    else {this.icon = L.icon({
+      iconUrl: `Icons/${imagePath}_Icon.png`,
+      iconSize: [24,24],
+      alt: altText
+    })}
+    this.groups = {};
+    groupNames.forEach((name)=>{this.groups[name] = L.layerGroup([]);})
+  }
+  const glossary = {
+    "Yoshi's":          new glossEntry("Yoshis",        "Yoshi's Restaurant",                       ["driveThrus", "foodTrucks", "snackBars"]),
+    "Vending Machine":  new glossEntry("YVM",           "Yoshi's Vending Machine",                  ["vendingMachines"]),
+    "Dash Food":        new glossEntry("Dash_Food",     "Dash Food Stall",                          ["foodStalls"]),
+    
+    "P Switch":         new glossEntry("P_Switch",      "P Switch Mission",                         ["pSwitches"]),
+    "Peach Medallion":  new glossEntry("Medallion",     "Peach Medallion",                          ["medallions"]),
+    "? Panel":          new glossEntry("Panel",         "? Panel",                                  ["panels"]),
+    
+    "Nabbit":           new glossEntry("Nabbit",        "Nabbit Spawn Location",                    ["nabbits"]),
+    "Chargin' Chuck":   new glossEntry("Chargin_Chuck", "Chargin' Chuck Challenge Spawn Location",  ["chucks"]),
+    "UFO":              new glossEntry("UFO",           "Ride UFO Spawn Location",                  ["ufos"]),
+    
+    "Binoculars":       new glossEntry("Binoculars",    "Stationary Binoculars",                    ["binos"]),
+    "Coin Pile":        new glossEntry("Coin",          "Giant Coin Pile",                          ["coinStacks"]),
+    
+    "Fast Travel":      new glossEntry("Travel",        "Fast Travel Destination Point",            ["travelPoints"]),
+    "Train Station":    new glossEntry("Train",         "Train Station",                            ["trainStations"]),
+    
+    "Signal Bug":       new glossEntry("Signal_Bug",    "Signal Bug Spawn Location",                ["signalBugs"]),
+    "default":          new glossEntry("default",       "",                                         ["miscLayer"]),
+  }
+  const groups = []
+  Object.values(glossary).forEach((entry)=>{
+    Object.values(entry.groups).forEach((group)=>{
+      groups.push(group)
+  })})
   
   //layer controls
   const baseLayers = {
     "Road Map": bgMap,
     "World Map": noRoadsMap,
   }
-  const overlays = {
-    "Traffic Map": trafficMap,
-    "Yoshi's Drive-throughs": driveThrus,
-    "Yoshi's Food Trucks": foodTrucks,
-    "Yoshi's Snack Bars": snackBars,
-    "Yoshi's Vending Machines": vendingMachines,
-    "Independent Food Stalls": foodStalls,
-    "P Switch Missions": pSwitches,
-    "Peach Medallions": medallions,
-    "? Panels": panels,
-    "Fast Travel Points": travelPoints,
-    "Train Stations": trainStations,
-    "Signal Bugs": signalBugs,
-    "Miscellaneous": miscLayer,
+  const groupedOverlays = {
+    "Maps": {
+      "Traffic Map": trafficMap,
+    },
+    "Dash Food": {
+      "Yoshi's Drive-throughs": groups[0],
+      "Yoshi's Food Trucks": groups[1],
+      "Yoshi's Snack Bars": groups[2],
+      "Yoshi's Vending Machines": groups[3],
+      "Other Dash Food Stalls": groups[4],
+    },
+    "Collectibles": {
+      "P Switch Missions": groups[5],
+      "Peach Medallions": groups[6],
+      "? Panels": groups[7],
+    },
+    "Event Locations": {
+      "Nabbit Locations": groups[8],
+      "Chargin' Chuck Challenges": groups[9],
+      "Ride UFO Locations": groups[10],
+    },
+    "Objects": {
+      "Binoculars": groups[11],
+      "Giant Coin Piles": groups[12],
+    },
+    "Points of Interest": {
+      "Fast Travel Points": groups[13],
+      "Train Stations": groups[14],
+    },
+    "Other": {
+    //"Signal Bugs": groups[15],
+    "Miscellaneous": groups[16],
+    }
   }
-  const layercontrol = L.control.layers(baseLayers, overlays).addTo(map);
+  const layerControl = L.control.groupedLayers(baseLayers, groupedOverlays, /*{groupCheckboxes: true}*/).addTo(map);
+  L.DomEvent.disableClickPropagation(layerControl.getContainer());
+  L.DomEvent.disableScrollPropagation(layerControl.getContainer());
   
   //funcs
   function myPopup(desc,type,file) {//returns stringified html element
-    let image = ""
-    if (file!=undefined) {image = '<img src="Screenshots/'+type+'/'+file+'" width="240" height="135">'}
+    let s = window.innerWidth <= 550?21:30;
+    let image = "";
+    if (file!=undefined) 
+      {image = `<img src="Screenshots/${type}/${file}" width="${16*s}" height="${9*s}">`}
     if (desc == null) {desc = ""}
-    return '<p>'+desc+'</p>'+image;};
+    return `<p>${desc}</p>${image}`;};
 
-  function myIcon(type) {//returns icon
-    if (type == "Yoshi's") {return yoshisIcon}
-    if (type == "Vending Machine") {return yvmIcon}
-    if (type == "Dash Food") {return foodIcon}
-    if (type == "P Switch") {return pSwitchIcon}
-    if (type == "Peach Medallion") {return medallionIcon}
-    if (type == "? Panel") {return panelIcon}
-    if (type == "Fast Travel") {return travelIcon}
-    if (type == "Train Station") {return trainIcon}
-    if (type == "Signal Bug") {return signalBugIcon}
-    return new L.Icon.Default;
+  function myTooltip(desc,type,file) {//returns stringified html element
+    if (desc == null) {desc = ""}
+    else if (type != "Coin Pile") {desc = desc+'<br>'}
+    let tipType = type
+    if (type == "Yoshi's") {
+      let t, f; 
+      try {t = String(file).match(/(?:MKW.)(\w+)/)[1]; 
+        f = String(file).match(/(?:MKW Y\w\w \w* )((?:\w| \w| &)+)/)[1];} 
+      catch {console.error("No file found, setting tooltip to misc Yoshi's")}
+      switch (t) {
+        case "YDT": tipType = "Yoshi's Drive-Through"; break;
+        case "YFT": tipType = "Yoshi's Food Truck"; break;
+        case "YSB": tipType = "Yoshi's Snack Bar"; break;
+      } if(!desc.includes(f)){tipType += ` (${f})`}}
+    if (type == "Coin Pile") {return desc}
+    return desc+tipType;
   }
 
   function myGroup(file,type) {//returns layerGroup
     if (type == "Yoshi's") {
-      let t; try {t = String(file).match(/(?:MKW.)(\w+)/)[1]} catch {console.error('No file found, setting layerGroup to miscLayer')}
-      if (t == "YDT") {return driveThrus}
-      if (t == "YFT") {return foodTrucks}
-      if (t == "YSB") {return snackBars}}
-    if (type == "Vending Machine") {return vendingMachines}
-    if (type == "Dash Food") {return foodStalls}
-    if (type == "P Switch") {return pSwitches}
-    if (type == "Peach Medallion") {return medallions}
-    if (type == "? Panel") {return panels}
-    if (type == "Fast Travel") {return travelPoints}
-    if (type == "Train Station") {return trainStations}
-    if (type == "Signal Bug") {return signalBugs}
-    return miscLayer;
+      let t; 
+      try {t = String(file).match(/(?:MKW.)(\w+)/)[1]} 
+      catch {console.error('No file found, setting layerGroup to miscLayer')}
+      switch (t) {
+        case "YDT": return glossary["Yoshi's"].groups["driveThrus"];
+        case "YFT": return glossary["Yoshi's"].groups["foodTrucks"];
+        case "YSB": return glossary["Yoshi's"].groups["snackBars"];
+      }
+      return glossary["default"].groups[0]
+    } else {
+    try {return Object.values(glossary[type].groups)[0]}
+    catch {return miscLayer}
+  }}
+  
+  function myMarker(j) {//j is the input object, m is the output marker
+    if (j.type == "Signal Bug") {return}
+    //stopgap until I commit to finishing all sigbug/enemy spawners
+    let m = L.marker(j.loc)
+      .setIcon(glossary[j.type].icon)
+      .bindPopup(myPopup(j.description,j.type,j.link),{maxWidth:500})
+      .bindTooltip(myTooltip(j.description,j.type,j.link))
+      .addTo(myGroup(j.link,j.type));
   }
   
   //async stuff
@@ -163,14 +188,10 @@
     const JSONmarkers = result.mapMarkers[0].markers;
     const JSONicons = result.markerIcons;
     //console.log(JSONmarkers)
-    for (let i = 0; i < JSONmarkers.length; i++) {
-      L.marker(JSONmarkers[i].loc)
-        .setIcon(myIcon(JSONmarkers[i].type))
-        .bindPopup(myPopup(JSONmarkers[i].description,JSONmarkers[i].type,JSONmarkers[i].link))
-        .addTo(myGroup(JSONmarkers[i].link,JSONmarkers[i].type));}
+    JSONmarkers.forEach(myMarker)
 
-    for (let i = 1; i < Object.keys(overlays).length -1; i++) {
-      if (Object.values(overlays)[i].getLayers().length != 0) {
-        Object.values(overlays)[i].addTo(map);}}
+    for (let i = 0; i < groups.length -1; i++) {
+      if (groups[i].getLayers().length != 0) {
+        groups[i].addTo(map);}}
   })
 </script>

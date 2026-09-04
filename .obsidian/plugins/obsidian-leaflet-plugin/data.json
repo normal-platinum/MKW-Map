@@ -2,7 +2,8 @@
   "mapMarkers": [
     {
       "id": "mkw-map",
-      "lastAccessed": 1787876989701,
+      "locked": true,
+      "lastAccessed": 1788554947549,
       "markers": [
         {
           "id": "ID_af9eadaf929a",
@@ -150,8 +151,8 @@
           "id": "ID_a794b7bbd829",
           "type": "Vending Machine",
           "loc": [
-            -17,
-            -783
+            -19.125,
+            -781.75
           ],
           "link": "MKW YVM rWS4.png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
@@ -344,7 +345,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Station between DD and BC",
+          "description": "Station between DD and BCi",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -561,7 +562,7 @@
             776.19921875,
             335.625
           ],
-          "link": "MKW YFT BC Popcorn.png",
+          "link": "MKW YFT BCi Popcorn.png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
@@ -2417,13 +2418,16 @@
           "id": "ID_a869481a2bab",
           "type": "Fast Travel",
           "loc": [
-            577.07421875,
-            240.25
+            571.625,
+            242.125
           ],
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            0.36685606060606063,
+            -0.9902555218709398
+          ],
           "description": "King Boo",
           "minZoom": null,
           "maxZoom": null,
@@ -2652,14 +2656,17 @@
           "id": "ID_89e84ae90a5b",
           "type": "Yoshi's",
           "loc": [
-            504.25,
-            328.125
+            504,
+            328.75
           ],
           "link": "MKW YSB SP Popcorn (Station).png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            0.4981060606060606,
+            -0.8731052403637939
+          ],
           "description": null,
           "minZoom": null,
           "maxZoom": null,
@@ -2669,14 +2676,17 @@
           "id": "ID_984b3a2b4aab",
           "type": "Yoshi's",
           "loc": [
-            494.19921875,
-            333.375
+            494.25,
+            334
           ],
           "link": "MKW YSB SP Bread (Station).png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            0.5060606060606061,
+            -0.8562148116067562
+          ],
           "description": null,
           "minZoom": null,
           "maxZoom": null,
@@ -2780,22 +2790,6 @@
           "command": false,
           "percent": null,
           "description": "Library level",
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        },
-        {
-          "id": "ID_78ab8b3a49ba",
-          "type": "default",
-          "loc": [
-            578.07421875,
-            625.25
-          ],
-          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -3451,7 +3445,7 @@
         },
         {
           "id": "ID_7b69bae8497b",
-          "type": "default",
+          "type": "Binoculars",
           "loc": [
             877.6484375,
             -11.75
@@ -3461,14 +3455,14 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Binoculars",
+          "description": "",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
         },
         {
           "id": "ID_cb6a8ba88979",
-          "type": "default",
+          "type": "Nabbit",
           "loc": [
             881.82421875,
             -18.375
@@ -3478,7 +3472,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Nabbit",
+          "description": "Atop lilypad",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -3522,7 +3516,7 @@
         },
         {
           "id": "ID_dbbb3ba8b959",
-          "type": "default",
+          "type": "Chargin' Chuck",
           "loc": [
             752.44921875,
             -55.375
@@ -3532,7 +3526,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Chargin' Chuck",
+          "description": "",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -3734,7 +3728,7 @@
         },
         {
           "id": "ID_f8e9181a5858",
-          "type": "default",
+          "type": "Chargin' Chuck",
           "loc": [
             60.69921875,
             -96.375
@@ -3744,7 +3738,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Chargin' Chuck",
+          "description": "",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -3839,11 +3833,12 @@
         },
         {
           "id": "ID_099ae8c969b8",
-          "type": "default",
+          "type": "Coin Pile",
           "loc": [
             -70.125,
             336.875
           ],
+          "link": "MKW Coins CCF1.png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
@@ -3858,11 +3853,12 @@
         },
         {
           "id": "ID_594a192a5b99",
-          "type": "default",
+          "type": "Coin Pile",
           "loc": [
             -94.875,
             370.875
           ],
+          "link": "MKW Coins CCF2.png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
@@ -3870,34 +3866,36 @@
             0.5619318181818181,
             0.16435686444348202
           ],
-          "description": "Giant Coin Pile (River Bank)",
+          "description": "Giant Coin Pile (River bank)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
         },
         {
           "id": "ID_0a681b5ada68",
-          "type": "default",
+          "type": "Nabbit",
           "loc": [
             133.1484375,
             465.25
           ],
+          "link": "MKW Nabbit rDKP (Stairs).png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Nabbit",
+          "description": "Under stairs",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
         },
         {
           "id": "ID_e95889188acb",
-          "type": "default",
+          "type": "Coin Pile",
           "loc": [
             20.8984375,
             -183.5
           ],
+          "link": "MKW Coins PS1.png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
@@ -4076,14 +4074,17 @@
           "id": "ID_fb2b68cb7bfa",
           "type": "Yoshi's",
           "loc": [
-            -620.80078125,
-            -316.375
+            -609.125,
+            -297.75
           ],
           "link": "MKW YSB CC Burger.png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            -0.4511363636363636,
+            1.0552187093980079
+          ],
           "description": null,
           "minZoom": null,
           "maxZoom": null,
@@ -4145,11 +4146,12 @@
         },
         {
           "id": "ID_f8eaf9280b2b",
-          "type": "default",
+          "type": "Coin Pile",
           "loc": [
             -535,
             -612.5
           ],
+          "link": "MKW Coins MBC1.png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
@@ -4424,7 +4426,7 @@
             13.25,
             -1021.5
           ],
-          "link": "MKW YDT rSGB Pita (Cyan).png",
+          "link": "MKW YDT rSGB Pita (Northwest Cyan).png",
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
@@ -4607,16 +4609,2944 @@
         },
         {
           "id": "ID_aadb5aabf979",
-          "type": "default",
+          "type": "Nabbit",
           "loc": [
             725.32421875,
             -636.375
+          ],
+          "link": "MKW Nabbit BC (Above).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Above snack bars",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f83ba9593a98",
+          "type": "Nabbit",
+          "loc": [
+            575.375,
+            629.875
+          ],
+          "link": "MKW Nabbit SP (Library).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.9543560606060606,
+            -0.9967518406236466
+          ],
+          "description": "In library",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a87bfa981ba8",
+          "type": "Chargin' Chuck",
+          "loc": [
+            302.875,
+            710.375
+          ],
+          "link": "MKW ChCh rDKP.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.0763257575757577,
+            -0.5246860112602858
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5989d9aab92a",
+          "type": "Chargin' Chuck",
+          "loc": [
+            -62.6015625,
+            -620.75
+          ],
+          "link": "MKW ChCh rWS.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8958ab29aa59",
+          "type": "UFO",
+          "loc": [
+            -206.8515625,
+            -666.75
+          ],
+          "link": "MKW UFO MBC.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "UFO found in mesas north of MBC",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a194a2b2b0b",
+          "type": "Nabbit",
+          "loc": [
+            763.19921875,
+            -642.5
+          ],
+          "link": "MKW Nabbit BC (Below).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Behind fortress (boulder pipe level)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_88498acaa9b9",
+          "type": "default",
+          "loc": [
+            -397.203125,
+            223.5
           ],
           "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Nabbit",
+          "description": "Campfire",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a9385958caeb",
+          "type": "Chargin' Chuck",
+          "loc": [
+            -327.05078125,
+            458
+          ],
+          "link": "MKW ChCh SSS.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8bf978189b0b",
+          "type": "Signal Bug",
+          "loc": [
+            -735.703125,
+            -610.5
+          ],
+          "link": "MKW SigBug WS1 (one).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "One (?%)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b4aaa793908",
+          "type": "UFO",
+          "loc": [
+            -871.203125,
+            -576
+          ],
+          "link": "MKW UFO DKS.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "UFO found in cliffs west of DKS",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eb8b2849098a",
+          "type": "Nabbit",
+          "loc": [
+            -420.203125,
+            -822.5
+          ],
+          "link": "MKW Nabbit MBC (Mesas).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Near tunnel",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d918fadba8eb",
+          "type": "UFO",
+          "loc": [
+            -400,
+            -862.5
+          ],
+          "link": "MKW UFO rDH.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.3068181818181819,
+            0.6929406669553919
+          ],
+          "description": "UFO found above cave northeast of rDH",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ea08a97a88cb",
+          "type": "UFO",
+          "loc": [
+            -588.6015625,
+            1011.5
+          ],
+          "link": "MKW UFO rPB.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "UFO found below southeast rPB",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e97a6808cb38",
+          "type": "Coin Pile",
+          "loc": [
+            -576.67578125,
+            1007.375
+          ],
+          "link": "MKW Coins rPB1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (East bank of rPB)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_88dadae90afa",
+          "type": "Coin Pile",
+          "loc": [
+            -532.55078125,
+            951
+          ],
+          "link": "MKW Coins rPB2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (North end of cathedral)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb1af9db8a69",
+          "type": "Nabbit",
+          "loc": [
+            -597.42578125,
+            900.5
+          ],
+          "link": "MKW Nabbit rPB (Deck).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Behind snack bar",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8b58a9c86b4a",
+          "type": "UFO",
+          "loc": [
+            602.3984375,
+            -405
+          ],
+          "link": "MKW UFO BC.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "UFO found on northwest cliff of hot springs",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f829c8f83bfa",
+          "type": "UFO",
+          "loc": [
+            689.1484375,
+            436.5
+          ],
+          "link": "MKW UFO BCi.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "UFO found on cliff southeast of BCi",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a85acaba9b0a",
+          "type": "UFO",
+          "loc": [
+            652.25,
+            -134.5
+          ],
+          "link": "MKW UFO DBB.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.2037878787878788,
+            -1.129926375054136
+          ],
+          "description": "UFO found via \"restricted\" path from the south",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1988dbf8d9fa",
+          "type": "default",
+          "loc": [
+            804.6484375,
+            -96.5
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Campfire",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8bd87aead858",
+          "type": "Nabbit",
+          "loc": [
+            647.75,
+            -134.625
+          ],
+          "link": "MKW Nabbit DBB (UFO).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.20397727272727273,
+            -1.1221307925508879
+          ],
+          "description": "At end of \"restricted\" path",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_38d919ea1a79",
+          "type": "Signal Bug",
+          "loc": [
+            77.796875,
+            -706.5
+          ],
+          "link": "MKW SigBug rWS1 (five).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f849ebfadba9",
+          "type": "Chargin' Chuck",
+          "loc": [
+            95.44921875,
+            -730.75
+          ],
+          "link": "MKW ChCh rWS (triple).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab4a1a083bfb",
+          "type": "Signal Bug",
+          "loc": [
+            50.625,
+            -660.125
+          ],
+          "link": "MKW SigBug rWS2 (two).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.000189393939394,
+            -0.08770030316154179
+          ],
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5ad9d8d9d968",
+          "type": "Signal Bug",
+          "loc": [
+            -91.42578125,
+            -688.125
+          ],
+          "link": "MKW SigBug rWS3 (three).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_48493878c91a",
+          "type": "Signal Bug",
+          "loc": [
+            -566,
+            -862
+          ],
+          "link": "MKW SigBug WS2 (two).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.3060606060606061,
+            0.9805110437418796
+          ],
+          "description": "Two (?%)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b686878a828",
+          "type": "Coin Pile",
+          "loc": [
+            -588.1015625,
+            -799.75
+          ],
+          "link": "MKW Coins WS1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Under rail bridge)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c8abc98b28fb",
+          "type": "Signal Bug",
+          "loc": [
+            -193.6015625,
+            -607.25
+          ],
+          "link": "MKW SigBug MBC1 (four).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bbbb48aad8e8",
+          "type": "Signal Bug",
+          "loc": [
+            -290.75,
+            -594
+          ],
+          "link": "MKW SigBug MBC2 (three).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.9,
+            0.5036812472932005
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6afb6b8adb2b",
+          "type": "Signal Bug",
+          "loc": [
+            136.296875,
+            -740.5
+          ],
+          "link": "MKW SigBug rWS6 (four).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b9b2bb91b3b",
+          "type": "Binoculars",
+          "loc": [
+            121.19921875,
+            -6
+          ],
+          "link": "MKW Bino rMMM (Driveway).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a680ad808bb",
+          "type": "Nabbit",
+          "loc": [
+            149.5,
+            56.75
+          ],
+          "link": "MKW Nabbit rMMM (Barn).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Inside barn",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_db6aba1b9978",
+          "type": "Binoculars",
+          "loc": [
+            -535.67578125,
+            917.625
+          ],
+          "link": "MKW Bino rPB (Fountain).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a29a97b6949",
+          "type": "Binoculars",
+          "loc": [
+            261.44921875,
+            959.125
+          ],
+          "link": "MKW Bino rSHS (Cups).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_dbb8d948e938",
+          "type": "Nabbit",
+          "loc": [
+            303.8984375,
+            956
+          ],
+          "link": "MKW Nabbit rSHS (Balcony).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Lower balcony",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3ab8f86a881b",
+          "type": "Nabbit",
+          "loc": [
+            186.8984375,
+            831.5
+          ],
+          "link": "MKW Nabbit rSHS (Penguins).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Surrounded by Penguins",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e9caf9fa592b",
+          "type": "Chargin' Chuck",
+          "loc": [
+            -58.67578125,
+            -924.5
+          ],
+          "link": "MKW ChCh rSGB (double).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3a8909ebaa68",
+          "type": "Nabbit",
+          "loc": [
+            -624.6015625,
+            66.25
+          ],
+          "link": "MKW Nabbit rKTB (Bridge).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Beneath bridge",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9bab8b8818e8",
+          "type": "Nabbit",
+          "loc": [
+            -230.55078125,
+            -35.625
+          ],
+          "link": "MKW Nabbit PS (Roof).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Station roof",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_09a82a69f9d8",
+          "type": "Nabbit",
+          "loc": [
+            -89.05078125,
+            258.875
+          ],
+          "link": "MKW Nabbit CCF (Cliff).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Cliff west of CCF",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c859ea0ad9b8",
+          "type": "Nabbit",
+          "loc": [
+            -172.92578125,
+            958.875
+          ],
+          "link": "MKW Nabbit rWSh (Tower).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Passageway next to southwest tower",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b58e8890b9b",
+          "type": "Coin Pile",
+          "loc": [
+            707.32421875,
+            106.75
+          ],
+          "link": "MKW Coins AH1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (southwest of rope bridge)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5949d8a989cb",
+          "type": "Nabbit",
+          "loc": [
+            631,
+            107.5
+          ],
+          "link": "MKW Nabbit AH (Stingbys).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Surrounded by Stingbys",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f94a1bb939ba",
+          "type": "Coin Pile",
+          "loc": [
+            150.07421875,
+            649.5
+          ],
+          "link": "MKW Coins rDKP1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Ledge)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_189b2a5bf86a",
+          "type": "UFO",
+          "loc": [
+            68.796875,
+            707
+          ],
+          "link": "MKW UFO rDKP.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "UFO found east of glide ramp",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eaca183aca68",
+          "type": "Binoculars",
+          "loc": [
+            -840.17578125,
+            749.875
+          ],
+          "link": "MKW Bino GBR (Start).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6aea3a981ae9",
+          "type": "Nabbit",
+          "loc": [
+            -847.92578125,
+            779.5
+          ],
+          "link": "MKW Nabbit GBR (Secret).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Hidden room accessible via warp pipe at base of pillar",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6afabb9bd9a9",
+          "type": "Coin Pile",
+          "loc": [
+            -829.55078125,
+            784.875
+          ],
+          "link": "MKW Coins GBR1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Top of giant ? block)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ea88ea4b08db",
+          "type": "Nabbit",
+          "loc": [
+            -1028.17578125,
+            409.5
+          ],
+          "link": "MKW Nabbit rDDJ (Eggs).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "On island",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a68698b1b5b",
+          "type": "Binoculars",
+          "loc": [
+            -952.42578125,
+            372.5
+          ],
+          "link": "MKW Bino rDDJ (Start).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7bb918ba4b88",
+          "type": "Nabbit",
+          "loc": [
+            -827.42578125,
+            -15.5
+          ],
+          "link": "MKW Nabbit rKTB (Secret).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Hidden room accessible via warp pipe in archway",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e85838cbca7b",
+          "type": "Binoculars",
+          "loc": [
+            -761.80078125,
+            -24
+          ],
+          "link": "MKW Bino rKTB (Dock).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_79794a883b0a",
+          "type": "Binoculars",
+          "loc": [
+            -316.8515625,
+            -711.25
+          ],
+          "link": "MKW Bino MBC (Shops).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e8a94ada08d8",
+          "type": "Nabbit",
+          "loc": [
+            -283.875,
+            -729.625
+          ],
+          "link": "MKW Nabbit MBC (Under).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.1054924242424242,
+            0.4917713295799047
+          ],
+          "description": "Under track",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8ba9990bcb2a",
+          "type": "Binoculars",
+          "loc": [
+            -521.80078125,
+            414.625
+          ],
+          "link": "MKW Bino FO (Drive-thru).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8db083acb59",
+          "type": "Nabbit",
+          "loc": [
+            -509.625,
+            370.75
+          ],
+          "link": "MKW Nabbit FO (Elephants).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5617424242424243,
+            0.8828497184928541
+          ],
+          "description": "Overlook near elephants",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4bfb09ab1869",
+          "type": "Yoshi's",
+          "loc": [
+            -588.05078125,
+            -312.5
+          ],
+          "link": "MKW YSB CC Pancakes.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eb2aba3998e8",
+          "type": "Yoshi's",
+          "loc": [
+            -566.80078125,
+            -306.75
+          ],
+          "link": "MKW YSB CC Lunchbox.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a19b9cbe9da",
+          "type": "Yoshi's",
+          "loc": [
+            -501.80078125,
+            -344.375
+          ],
+          "link": "MKW YSB CC Pizza.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_38fbfbbab8a8",
+          "type": "Binoculars",
+          "loc": [
+            -490.375,
+            -328.375
+          ],
+          "link": "MKW Bino CC (Curb).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.4975378787878788,
+            0.8495019488956258
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cbead8aacaca",
+          "type": "Yoshi's",
+          "loc": [
+            -471.55078125,
+            -281.75
+          ],
+          "link": "MKW YFT CC Skewers.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f88aa8fb7bfb",
+          "type": "Nabbit",
+          "loc": [
+            -525.30078125,
+            -310.25
+          ],
+          "link": "MKW Nabbit CC (Canal).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "In canal",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb5b1a384888",
+          "type": "Binoculars",
+          "loc": [
+            -588.05078125,
+            -249.625
+          ],
+          "link": "MKW Bino CC (Bridge).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_49ba6929eb8b",
+          "type": "? Panel",
+          "loc": [
+            -570.30078125,
+            -307.625
+          ],
+          "link": "MKW Panel CC3.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a3bf86878e8",
+          "type": "? Panel",
+          "loc": [
+            -633.42578125,
+            -309
+          ],
+          "link": "MKW Panel CC2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1918b97a1b18",
+          "type": "? Panel",
+          "loc": [
+            -605.30078125,
+            -286.125
+          ],
+          "link": "MKW Panel CC4.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7ac8a90b18db",
+          "type": "Peach Medallion",
+          "loc": [
+            -641.30078125,
+            -343.5
+          ],
+          "link": "MKW Medallion CC1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e92b28f9990a",
+          "type": "? Panel",
+          "loc": [
+            -640.92578125,
+            -327.75
+          ],
+          "link": "MKW Panel CC1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2b199a2b5b7a",
+          "type": "Yoshi's",
+          "loc": [
+            -200.42578125,
+            -807.375
+          ],
+          "link": "MKW YDT rSGB Pita (Southeast Cyan).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3ad99938e9b9",
+          "type": "default",
+          "loc": [
+            -206.05078125,
+            -818
+          ],
+          "link": "MKW Obj rSGB (Stationary Orange Truck).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Stationary Orange Truck",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e92aba9aabd9",
+          "type": "Binoculars",
+          "loc": [
+            -202.42578125,
+            -815.875
+          ],
+          "link": "MKW Bino rSGB (Highway).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b0adbdb591b",
+          "type": "default",
+          "loc": [
+            -23.55078125,
+            -664.125
+          ],
+          "link": "MKW Obj rWS (Stationary Orange Truck).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Stationary Orange Truck",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a59c8e9694a",
+          "type": "Peach Medallion",
+          "loc": [
+            495.796875,
+            -166
+          ],
+          "link": "MKW Medallion MC1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ca48c97aaa69",
+          "type": "Binoculars",
+          "loc": [
+            -696.25,
+            378.75
+          ],
+          "link": "MKW Bino FO (Roadside).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_984a4b092b3a",
+          "type": "Binoculars",
+          "loc": [
+            -326.55078125,
+            896.375
+          ],
+          "link": "MKW Bino SSS (Island).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c919397888c8",
+          "type": "Nabbit",
+          "loc": [
+            -326.17578125,
+            603.875
+          ],
+          "link": "MKW Nabbit SSS (Roof).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Roof area accessible via northwest ramp",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9809ea4bd849",
+          "type": "Peach Medallion",
+          "loc": [
+            -326.25,
+            621.375
+          ],
+          "link": "MKW Medallion SSS1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.9414772727272728,
+            0.5651797314854916
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4b5928ab6ac8",
+          "type": "Binoculars",
+          "loc": [
+            -361.875,
+            681.875
+          ],
+          "link": "MKW Bino SSS (Ramp).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.0331439393939394,
+            0.6268947596362061
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_386bbba90818",
+          "type": "Binoculars",
+          "loc": [
+            -546.67578125,
+            553.625
+          ],
+          "link": "MKW Bino FO (Fork).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_faf9d83978aa",
+          "type": "Binoculars",
+          "loc": [
+            -548.125,
+            192.875
+          ],
+          "link": "MKW Bino FO (Bridge).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.2922348484848485,
+            0.9495452576873106
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a87a59d96b58",
+          "type": "Binoculars",
+          "loc": [
+            -392.375,
+            373.75
+          ],
+          "link": "MKW Bino FO (Highway).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5662878787878788,
+            0.6797314854915548
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3b080b185b0a",
+          "type": "Binoculars",
+          "loc": [
+            -295.92578125,
+            231.75
+          ],
+          "link": "MKW Bino CCF (Lake).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fa3829cb1b19",
+          "type": "Binoculars",
+          "loc": [
+            -276.25,
+            25.25
+          ],
+          "link": "MKW Bino PS (Terrace).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.038257575757575754,
+            0.47856214811606756
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ea9809cb1b09",
+          "type": "Binoculars",
+          "loc": [
+            -94.55078125,
+            329.125
+          ],
+          "link": "MKW Bino CCF (Garden).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_08d80af929bb",
+          "type": "Binoculars",
+          "loc": [
+            -690.875,
+            588
+          ],
+          "link": "MKW Bino GBR (Waterfall).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.8909090909090909,
+            1.196838458207016
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4838a8f988ba",
+          "type": "Binoculars",
+          "loc": [
+            -819.75,
+            122.5
+          ],
+          "link": "MKW Bino rKTB (Shack).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.1856060606060606,
+            1.4200952793417063
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fa7a2ac8cbd8",
+          "type": "Binoculars",
+          "loc": [
+            -154.55078125,
+            932.875
+          ],
+          "link": "MKW Bino rWSh (Buoys).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a93af98b1b1b",
+          "type": "Peach Medallion",
+          "loc": [
+            -662.703125,
+            -445.5
+          ],
+          "link": "MKW Medallion CC2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_baab3bcbe9f9",
+          "type": "Binoculars",
+          "loc": [
+            -746.25,
+            -477.875
+          ],
+          "link": "MKW Bino CC (Trucks).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.7240530303030303,
+            1.292767431788653
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5ae8894918ab",
+          "type": "Binoculars",
+          "loc": [
+            -77.92578125,
+            593
+          ],
+          "link": "MKW Bino rWSh (Drive-thru).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0b9978aaa819",
+          "type": "Binoculars",
+          "loc": [
+            99,
+            943.5
+          ],
+          "link": "MKW Bino rSHS (Lake).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69db492ada49",
+          "type": "Binoculars",
+          "loc": [
+            185.25,
+            596.75
+          ],
+          "link": "MKW Bino rDKP (Start).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eb399919b869",
+          "type": "Nabbit",
+          "loc": [
+            159.94921875,
+            618.875
+          ],
+          "link": "MKW Nabbit rDKP (Snowboards).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Cliff overlooking tunnel entrance",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d85bcaf83a3b",
+          "type": "Binoculars",
+          "loc": [
+            523.07421875,
+            648.5
+          ],
+          "link": "MKW Bino SP (Overlook).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2b8b1839e85b",
+          "type": "Binoculars",
+          "loc": [
+            757,
+            347
+          ],
+          "link": "MKW Bino BCi (Stairs).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_98a809787afb",
+          "type": "Binoculars",
+          "loc": [
+            264,
+            345.875
+          ],
+          "link": "MKW Bino DD (Overlook).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_584b19ea0bfb",
+          "type": "Binoculars",
+          "loc": [
+            167.125,
+            298.125
+          ],
+          "link": "MKW Bino DD (Bridge).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7abacbcac85b",
+          "type": "Binoculars",
+          "loc": [
+            -661.25,
+            832.25
+          ],
+          "link": "MKW Bino rPB (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_184aab8bd81b",
+          "type": "Binoculars",
+          "loc": [
+            495,
+            337.625
+          ],
+          "link": "MKW Bino SP (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5115530303030303,
+            -0.8575140753572975
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bbf9db48384a",
+          "type": "Binoculars",
+          "loc": [
+            580.125,
+            240.875
+          ],
+          "link": "MKW Bino BCi (Roadside).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.36496212121212124,
+            -1.004980511043742
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b29f838ba1b",
+          "type": "Binoculars",
+          "loc": [
+            -20.17578125,
+            -45
+          ],
+          "link": "MKW Bino PS (Lake).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6bdbb87b4958",
+          "type": "Binoculars",
+          "loc": [
+            112.44921875,
+            -233.5
+          ],
+          "link": "MKW Bino rMMM (Fork).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4ac9a95ad9c8",
+          "type": "Coin Pile",
+          "loc": [
+            -249.3515625,
+            -229.25
+          ],
+          "link": "MKW Coins PS2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Above tunnel entrance)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a8b4b697a2a",
+          "type": "Binoculars",
+          "loc": [
+            -914.625,
+            -324
+          ],
+          "link": "MKW Bino DKS (Ground).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.4909090909090909,
+            1.5844521437851884
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_19d8ca59a93b",
+          "type": "Nabbit",
+          "loc": [
+            -976.42578125,
+            -420
+          ],
+          "link": "MKW Nabbit DKS (Below).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Between cabinet-shaped building and attached building",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_faea687ad808",
+          "type": "Binoculars",
+          "loc": [
+            -764.17578125,
+            -690.75
+          ],
+          "link": "MKW Bino WS (Start).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c8d8286999da",
+          "type": "Nabbit",
+          "loc": [
+            -752.875,
+            -732.125
+          ],
+          "link": "MKW Nabbit WS (Hardhats).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.1092803030303031,
+            1.3042442615851018
+          ],
+          "description": "Near canyon",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f85b9839b95a",
+          "type": "Binoculars",
+          "loc": [
+            -975.5,
+            -535
+          ],
+          "link": "MKW Bino DKS (Warehouses).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.8106060606060606,
+            1.6899090515374622
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4a3978587a39",
+          "type": "Binoculars",
+          "loc": [
+            -633.92578125,
+            -691.875
+          ],
+          "link": "MKW Bino WS (Roadside).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a8ab9998ca19",
+          "type": "Binoculars",
+          "loc": [
+            -557.05078125,
+            -528.375
+          ],
+          "link": "MKW Bino WS (Highway).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fbfaa8f9fbe8",
+          "type": "Binoculars",
+          "loc": [
+            -333.125,
+            -425.5
+          ],
+          "link": "MKW Bino CC (River).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.6446969696969697,
+            0.5770896491987874
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b8a3a2ba988",
+          "type": "default",
+          "loc": [
+            -339.42578125,
+            -430
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Campfire",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eb9aab4a49ca",
+          "type": "Binoculars",
+          "loc": [
+            -306.5,
+            -544.125
+          ],
+          "link": "MKW Bino MBC (Trucks).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.8244318181818182,
+            0.5309657860545691
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_194bb9697b4a",
+          "type": "Binoculars",
+          "loc": [
+            -403.25,
+            -661.875
+          ],
+          "link": "MKW Bino MBC (Drive-thru).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.0028409090909092,
+            0.6985708098744045
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_590bf96a4a6a",
+          "type": "Binoculars",
+          "loc": [
+            -542.5,
+            -998.75
+          ],
+          "link": "MKW Bino rDH (Ramp).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9f89a79a808",
+          "type": "Binoculars",
+          "loc": [
+            -389.5,
+            -939
+          ],
+          "link": "MKW Bino rSGB (Sandvaargh).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_58c8e988b839",
+          "type": "Binoculars",
+          "loc": [
+            -75.125,
+            -1026.625
+          ],
+          "link": "MKW Bino rSGB (Entrance).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99695afb9a78",
+          "type": "Binoculars",
+          "loc": [
+            -144.30078125,
+            -549.875
+          ],
+          "link": "MKW Bino MBC (Roadside).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3ac9da9b5ab8",
+          "type": "Binoculars",
+          "loc": [
+            -15.875,
+            -780.625
+          ],
+          "link": "MKW Bino rWS (Overlook).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb6a4b18d8c8",
+          "type": "Binoculars",
+          "loc": [
+            41.5,
+            480.25
+          ],
+          "link": "MKW Bino rDKP (Drive-thru).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7276515151515152,
+            -0.07189259419662192
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_29aadaea3aba",
+          "type": "Binoculars",
+          "loc": [
+            119.5,
+            675.375
+          ],
+          "link": "MKW Bino rDKP (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.0232954545454545,
+            -0.20701602425292334
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2bfa8aba59f9",
+          "type": "Binoculars",
+          "loc": [
+            -77.30078125,
+            -334.375
+          ],
+          "link": "MKW Bino rCM (Start).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1859ba893b7a",
+          "type": "Binoculars",
+          "loc": [
+            -22.875,
+            -518
+          ],
+          "link": "MKW Bino rWS (Highway).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.7848484848484848,
+            0.03962754439151148
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_194a9bcbabe8",
+          "type": "Binoculars",
+          "loc": [
+            117.75,
+            -897.875
+          ],
+          "link": "MKW Bino rSGB (Pit).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.3604166666666666,
+            -0.2039844088349935
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3be879db2b08",
+          "type": "Binoculars",
+          "loc": [
+            119.94921875,
+            -655.875
+          ],
+          "link": "MKW Bino rWS (Entrance).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_19a899382bf9",
+          "type": "Chargin' Chuck",
+          "loc": [
+            223.25,
+            -433.25
+          ],
+          "link": "MKW ChCh rTF (triple).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.656439393939394,
+            -0.38674750974447814
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_da79d9480869",
+          "type": "Coin Pile",
+          "loc": [
+            454.94921875,
+            -461.5
+          ],
+          "link": "MKW Coins BC1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Cliff above roadway)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e9996bf8eb89",
+          "type": "Binoculars",
+          "loc": [
+            336.82421875,
+            -324.625
+          ],
+          "link": "MKW Bino rTF (Harbour).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69584ba97b98",
+          "type": "Binoculars",
+          "loc": [
+            330.07421875,
+            -688.5
+          ],
+          "link": "MKW Bino rAF (Canal).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a7b9bc879ca",
+          "type": "Binoculars",
+          "loc": [
+            432.57421875,
+            -904.75
+          ],
+          "link": "MKW Bino rAF (Tower).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2ad9a9082a38",
+          "type": "Binoculars",
+          "loc": [
+            503.375,
+            -569.875
+          ],
+          "link": "MKW Bino BC (Wall).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.8634469696969697,
+            -0.8720225205716761
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_39ba7a89aa88",
+          "type": "Binoculars",
+          "loc": [
+            701.69921875,
+            -628.875
+          ],
+          "link": "MKW Bino BC (Ramp).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_382879a89bb9",
+          "type": "Binoculars",
+          "loc": [
+            752.25,
+            -299.75
+          ],
+          "link": "MKW Bino DBB (Overlook).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.45416666666666666,
+            -1.303161541792984
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2be868f95ac8",
+          "type": "Binoculars",
+          "loc": [
+            569.8984375,
+            -322.25
+          ],
+          "link": "MKW Bino DBB (Spring).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6bbb8a19f848",
+          "type": "Binoculars",
+          "loc": [
+            301.44921875,
+            -106.5
+          ],
+          "link": "MKW Bino rMMM (Drive-thru).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99e92bcb283a",
+          "type": "Binoculars",
+          "loc": [
+            543.6484375,
+            15.5
+          ],
+          "link": "MKW Bino MC (Pipes).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ebd839a88ae8",
+          "type": "Binoculars",
+          "loc": [
+            719.32421875,
+            30.875
+          ],
+          "link": "MKW Bino AH (Stump).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7aca3afa184b",
+          "type": "Binoculars",
+          "loc": [
+            220.57421875,
+            789.25
+          ],
+          "link": "MKW Bino rSHS (Fork).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_48cb8a2bd9e9",
+          "type": "Binoculars",
+          "loc": [
+            -86.75,
+            -113.5
+          ],
+          "link": "MKW Bino PS (Station).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.17196969696969697,
+            0.15028150714595062
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6a0a686a48ba",
+          "type": "Nabbit",
+          "loc": [
+            -616,
+            -1001
+          ],
+          "link": "MKW Nabbit rDH (Camels).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.5166666666666666,
+            1.0671286271113036
+          ],
+          "description": "Behind drive-through",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ea7a1b6ad86a",
+          "type": "Nabbit",
+          "loc": [
+            -388.703125,
+            -396
+          ],
+          "link": "MKW Nabbit CC (Plateau).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Atop plateau accessible during \"Bounce, bounce, bounce to a grand vantage point!\" mission",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fa185baa294b",
+          "type": "Nabbit",
+          "loc": [
+            -10.25,
+            -1056.625
+          ],
+          "link": "MKW Nabbit rSGB (Roof).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.6009469696969696,
+            0.017756604590731917
+          ],
+          "description": "Upper section northeast of palace courtyard",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e8f96bdac85b",
+          "type": "Nabbit",
+          "loc": [
+            -354.703125,
+            -978
+          ],
+          "link": "MKW Nabbit rSGB (Masks).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Mesa west of open area",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6939f97aaa4a",
+          "type": "Nabbit",
+          "loc": [
+            151,
+            -665.125
+          ],
+          "link": "MKW Nabbit rWS (Barrels).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -1.0077651515151516,
+            -0.26158510177566047
+          ],
+          "description": "Above snack bar",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b09989ab828",
+          "type": "Nabbit",
+          "loc": [
+            433.57421875,
+            -893.25
+          ],
+          "link": "MKW Nabbit rAF (Tower).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Bottom of tower",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c81a3acbdb2b",
+          "type": "Coin Pile",
+          "loc": [
+            366.8984375,
+            -276.5
+          ],
+          "link": "MKW Coins rTF1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Cargo container)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7a2baaa8a938",
+          "type": "Coin Pile",
+          "loc": [
+            362.07421875,
+            -283.75
+          ],
+          "link": "MKW Coins rTF2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Atop crane)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_888afa1a387b",
+          "type": "Nabbit",
+          "loc": [
+            393.82421875,
+            -332.25
+          ],
+          "link": "MKW Nabbit rTF (Cones).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Behind northwest building",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0b4bf8480b8a",
+          "type": "Nabbit",
+          "loc": [
+            -27.6015625,
+            -345
+          ],
+          "link": "MKW Nabbit rCM (Coolers).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Offroad section in northwest rCM",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ebb9a989b96a",
+          "type": "Nabbit",
+          "loc": [
+            -53.80078125,
+            375.375
+          ],
+          "link": "MKW Nabbit CCF (Rock).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Near path behind falls",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_687b492aca59",
+          "type": "Nabbit",
+          "loc": [
+            298.69921875,
+            349.5
+          ],
+          "link": "MKW Nabbit DD (Para-biddybuds).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Surrounded by para-biddybuds",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8392b7b2a9a",
+          "type": "Coin Pile",
+          "loc": [
+            315.6484375,
+            378
+          ],
+          "link": "MKW Coins DD1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Hidden path to glide ramp)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a683b88ebca",
+          "type": "? Panel",
+          "loc": [
+            538,
+            60.75
+          ],
+          "link": "MKW Panel MC1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.09204545454545454,
+            -0.9320051970550022
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_09c898080b1a",
+          "type": "default",
+          "loc": [
+            481.796875,
+            118
+          ],
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Campfire",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4bb9b97ba879",
+          "type": "Nabbit",
+          "loc": [
+            509.69921875,
+            -10.875
+          ],
+          "link": "MKW Nabbit MC (Wall).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Behind the stands",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c98939f9a9c8",
+          "type": "Nabbit",
+          "loc": [
+            825,
+            -317.5
+          ],
+          "link": "MKW Nabbit DBB (Cliff).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            -0.4810606060606061,
+            -1.429190125595496
+          ],
+          "description": "Cliff above the northernmost turn of DBB",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_28d8f9290a48",
+          "type": "Coin Pile",
+          "loc": [
+            734.19921875,
+            -304
+          ],
+          "link": "MKW Coins DBB1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Ledge)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a8a7a298bda",
+          "type": "Nabbit",
+          "loc": [
+            794.1484375,
+            357.25
+          ],
+          "link": "MKW Nabbit BCi (Hallway).png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Hallway beneath seats",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1978db89fa7b",
+          "type": "Coin Pile",
+          "loc": [
+            -860.8515625,
+            -426.75
+          ],
+          "link": "MKW Coins DKS1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Cliff northwest of DKS)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68a8187b8aab",
+          "type": "Coin Pile",
+          "loc": [
+            -854.6015625,
+            -489.5
+          ],
+          "link": "MKW Coins DKS2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Atop east toll building)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b9989f9c9fa",
+          "type": "Peach Medallion",
+          "loc": [
+            795.94921875,
+            386.75
+          ],
+          "link": "MKW Medallion BCi2.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ba2818d918e9",
+          "type": "Peach Medallion",
+          "loc": [
+            845.19921875,
+            384.25
+          ],
+          "link": "MKW Medallion BCi1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_399b7808baa8",
+          "type": "Yoshi's",
+          "loc": [
+            794.875,
+            333.375
+          ],
+          "link": "MKW YSB BCi Popcorn.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5051136363636364,
+            -1.377003031615418
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0be85b28abc9",
+          "type": "Coin Pile",
+          "loc": [
+            807.19921875,
+            307.375
+          ],
+          "link": "MKW Coins BCi1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Under stairs)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bb097a9babe8",
+          "type": "Coin Pile",
+          "loc": [
+            -585.1015625,
+            916.75
+          ],
+          "link": "MKW Coins rPB3.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Giant Coin Pile (Covered tower)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a3948aad87a",
+          "type": "Peach Medallion",
+          "loc": [
+            293.5,
+            558.25
+          ],
+          "link": "MKW Medallion rDKP1.png",
+          "layer": "%5B%5BWorld_Map_(NoIcons).png%7CMap%20Only%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.8458333333333333,
+            -0.5084452143785189
+          ],
+          "description": null,
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -4631,13 +7561,14 @@
   ],
   "defaultMarker": {
     "type": "default",
-    "iconName": "map-marker",
+    "iconName": "crosshairs",
     "color": "#dddddd",
     "transform": {
       "size": 6,
       "x": 0,
       "y": -2
-    }
+    },
+    "isImage": false
   },
   "markerIcons": [
     {
@@ -4709,7 +7640,7 @@
         "y": -2
       },
       "isImage": true,
-      "imageUrl": "data:image/png;base64,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",
+      "imageUrl": "data:image/png;base64,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",
       "tags": [
         "ydt",
         "yft",
@@ -4809,6 +7740,101 @@
       "imageUrl": "data:image/png;base64,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",
       "tags": [
         "sigbug"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Chargin' Chuck",
+      "iconName": "map-marker",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "chch"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Nabbit",
+      "iconName": "map-marker",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAFd0lEQVR4AYyVe0xTVxzHv73tBfqgo1DbAhZEHo7XoDyN6OYEBWXgUJOJj/mYztfczDI2t8X3cItZwmKi0/2hi8ucxkSNMzEbxiXDTZnISDaJxonAgALS8iht76t0v2sULVO0/X7vuefce7+fe07POWXw7E96bGRc7eycUu+UmBcvq1SqkgePTApRh3yuC9Udovoisor8Pz0LYMlLnXZ+7/IDRe+XbQs5uP54wby8irNarbZqum3mlf1rv916ZPOZdTtX7DsVbYq5QOnB5ACNC9BpdVvnZ1fGjIgj8I1IYFQKvJJcHJwYn7hvScE6S5jaCIMmDLNSSrB2zuai4GD27YB0qowHUEaZrKVatQ68xIETvRj2uKBkVEiYkArFCCD4OHhFDzjJi9gJiQjVhxZTZoDGA0RYDJFxXp6Dh0Jc3BD6h51wuO4hLCSCgAQlsFcG88PgRQ5BqhBzQDpVxgNYNMFapSDykEQBvMBjcHgQva4eqFkd5HZe8MLDueFyD8HpcoAXvV2UGaDxABNUShY+nwhBEsAL3P0hujdsh5K+ErWLBBboBTycB/aBDvCc2BSQThWG/EQplcpQhmEgUpDc/ftv6hmC09MDhR+QRkTIEEHi4eXdaHPcBsdxv48NexpAQYDMqPBopManIyMpGxmJOZiVOxcfLtoNo8EEURIhwyUqPbwXrb0tbkmS6p8LwLDMhqpNn2xf+PJS6FkDlD4V/JIColfAiBtIm5iJSaYE6oFE9sHpdqJnsPM3Ch8kB+hJPbBWlCyoXrZqscKQooYk+cCqGcQWRCC+0AS9RU2zJQgRugjEGhPB8QJaHbfgcrnOBCQ/qDAPytGCtoJ3K5ctDqtvvArH3SGEBAUhe3kSWrx/4c7QDeStSgZNLjBKJYLZYESGT4ROrQfP8x0A/OQAjQUooy3RZVlZWUizZqP/HzcY1g+9UYvrDfVob7sDFQX7/PLK9oGOCGKDkGq1Qa1V51OyYqzHAhLmlcxJ8nMiPMMcwpLV8LJu3PjlNrZ+tBMrVq7DjZ9aMDTgBk/Tk6dpytH0JR5YpXIChcs9CLAMkKl0DaCZk2FuuaMwfXMABUPNmJ2mwuuLk5A2RQdftwPOfwdA6xohk+l2iwAuxAWn0IeOgVb4FQr6+al9jGSA3KSQD4xaPSNnciKOKtS4ev4iur7aj97tO+DZ+xkUX+5G+IUfkDEzHoXL8lGx8VW8ua0Mq3fNx6ZdK5CWkvYGZci9oOKRGDp92CUmLyysIrSwCMXvrIG0YRMaF1bi7oIKnEjNxSVzLHoaG9Fz6SJ67F3o7rajq6sTzoE+9A86wbKshrK05ADJgIcNE23RUZF+vR4uekCnZWEwW5BZXIzklzKQufYt6LJzYVWysMbEwWSOhEajoT1JxMpVq9saGhpeA9BGDtAogMZ/ak7cZMaoUsFudyElNZZulNDU8DdsuUn440oj0NEF2pzgdg1Aos1Po9Xg5MnT6Ozs/JTWgbxNyKNBzz3SKID2Hb3WbIb+ylX4fT74oYHZaIHRYoTbwWGqj0e4KRyK/HzoXgiHlxOwZcsHwuHDh/e53e5TjyIDz0YBoig2XfP7/Vb60yu8XIvOPV9g+PRpKI+fgOHI14i6TmBbFgRDOI4dO4Y5xSW3zp37sayvr+9jihTIT9QogK7+eeLs2bq20lJoZs5AQvIkZJn0sCbGIGjaVHQvrcTBmzdRXl7eX1VVtaelpWW60+n8GaD1Roen6XGAz+FwvLdk/cbe1rR09M0tQ2N2Nmo6OrH0u++F/PLyX6urqzfU1dWl9vb27qAx73ta6OPtjwNAY9nU3NxcUlhYdM1ms9XT2x6tqalZU1tbm97e3j7bbrcf8ng8dgrwk59L/wEAAP//azu20gAAAAZJREFUAwD2DUEE87gLGwAAAABJRU5ErkJggg==",
+      "tags": [
+        "nabbit"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "UFO",
+      "iconName": "crosshairs",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEo0lEQVR4AeyTa2xTZRzGn5629kLXdd2N3rayW7d2ILAVEAaOO2wiCAgbQ4ZcFFGJQRJAFIYSI5AlQowxKEFuQhh+IYooyBoUAhuCXApbt3XrbsV16+bart26w/FfyIiXsekHP5h48vze875v/u/znP+bHAb/8vN/wKAX/HeuSE0u24iLRAVxmzhGzCAExIAaLCCHLxRejx2WWmTMyBlvHl9gmDBxuWnipIV5aemjzshkskPkLiUeq4ECskQScUlS+sSYaMlk8P2pYL06ML5k6PyLMV2xlTcmMz8/XBFxlNxFRL/qCwi1Gk0Vq4k8IoYoVieYpEKfESwnQY+kCz2RHgTjOISbk7DlnXlYJN8IU3ruXIFQ+AHVJxJ9fjR9qNBGqMUjSUm6u4bhhn3mKU8fi9VorPHJ+jHREang84XgxD4wChZ8LQOerhNNmp9RkeLDiMmJ0PGyefNWrXwjc/q0O2KpdAfZhj6WXg/F0OsFfaJ28dipWZEjZ+RCl2LA1AXPRc1ckg/jJC1GPiPE6CwZRo0eCqNagWSFFEN5bly9/D1qEy7gyWVi6E1GzFqy4Im8V1ZtUshlxeSpIB6IoTEjUhUFlglCIuqBMlKBsLAwICiAhJEiJkIJvV6P5Hg15ENiIRUqwYMMdQ0tKK+2weUJ4D4rQSDAICpex5u9dNG6pGT9JQBGgsfQoJYrFTAZlTCouhAXcQ9x0R6oI3ohhQeM349YEQMZy0HU44OYC0LQEwAb8CPoaoTPYQXbVIVgdSX8VQ5Ie/mYnJuTNm9M7iWVSLUuFLCu9JTlujklBSvyp2H+zChkD/cgQ+PAyLBaxHXXImCzoavGAXmXF5JAF3idneC8HkgEDNIS4zHClIqEhASEKyKhV2gwQZCJveaPw+ebFrwbCrBTF3lL8rdbP/v0CLXfg2EpGkydo0PB+qFYvY2PNVva8dJrThTOciJfW48XuUas9DaiwNuGOS4nnnU1Y3ljDba3tuPNTiXGdoTjo7K93Wft330YCiB/2NxuT877O846jv/owzdfW1Gy5yJKdt7AV/udsJx0o/xUMyquOGCnTmpddahprYO1uQqW6jsouV6Gzx027PZWY7PgAgori37dVV4829ZhK+oLCIXU+3zBxQd2nnPd9Kpg9wyBvV2EVmM25M9vQKVyBMrqgUtuDhd5HCxKARqW0Q+4eSnqDZGoDbuPa2wXbrS4PWU/3FpGhqUE9/sAWuNKY12Dec+GTw4dPH6Vc/gAu6Uc5ae/Rbe/G/4hUnRLxWBlIgikQrAtHag9dxn37E04U3qz+eQXlk2WE+dHkdEp4oH+HBDadNCwvM7RVnSzzoWEp7IRCIrR5mHA06SiV6kFq9AjCDV6q4VQOlWoLuu8VWFrmkbndhI1xCMxj2Z/nHC0PHirrKb5yvlrCLI8RMSokEFhJvM4mDLGQatNg5yJwk/WG9wv7a4TAO4Sf9HjAkKFDo/bl7m/+MDG99Zs/XLrireu5WXNtq6dW2hbu7Dg9tvrXy1dv+P1fYdPHy2sctbsDh3oj4ECQvVOGnYRC4kMIp0wEMOJKcTLxGGim+hXgwX0e+ifbP73A34DAAD///AaSeMAAAAGSURBVAMANUeZQNIdiHsAAAAASUVORK5CYII=",
+      "tags": [
+        "ufo"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Binoculars",
+      "iconName": "crosshairs",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "bino"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Coin Pile",
+      "iconName": "crosshairs",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAFK0lEQVR4AYxVXWxUVRD+zrm3e7s/bXe3lW0VLRVCpNSGBA1NFMX4RFR4EEwsJGApIKEUlQd9a/umD6i0JQgUAwnhQfABNPFRFE1KQgMppCbQCMXEstDe3f7Q7W7vPceZs21BlNKbmXvnzJn5Zs6cOedKPP6ppamO2lr78qZN4eS2hsjwB++HhhveksMNa+Vw/ZsiWbMIl9mGmG3p81/6vwBOIIDW9zYWdv9yvrzptwvPrug6mlhw8OCC+KFvy+Odp56Ld3xZFj/yWeGCC53Oip+/sps2vCa6AzZaATjE/6JHAwSjUXR1tMdbjh2rCNbVheA4ApKshACYLUfCrorAeikBJx7AqmoLXZ8GggearJZoGF0AgsSzRK4P5FgM+9vbSzdv3RpFICCgJhX8/lF4PUPwLt2Dd8WFP5gBfA0ZlJC1ZUCJA8oeW9ba+LrJ2hyLYD8hzuLOCqSs37WraOfGDSUkAureJNTVYaDQhrU8Dqu2FPL5Yuh0Ft5VFzqnIGwBuSwOHbDAz4Y1Nj5cJ3eSXE9saCZASU2N1bK3OS65HGpkCmpgDLKagBeGIAolREBCFtuwX4hCPBWC6nPNSoRDc5X5pNh3z7u2rKkULYRulJIEpvU7tpcsiUYt46T605BLo5BhC+q+D3VzNM9UMtBeWM8EoSMOvIH77AsrUQgdChg5GhFofFsuocF6YpgAixeLLevWRXicrzE5y+ICM9YEqm+PwXBWGR2/rEqyH5ow+wRLQMQLWW34nVcsLEpgCw84QGz58sCqRMIGNNG9DGRFiOfmZFFAoKWU+dBk3q6MmkfkxURM4MUqsYpGMQ5QvXKl43D9NGfoKcgiCkazT6SyEHQqa8ysCJVX5iMw1sqlwqGJag5QUVFuG0RuSxGm0uTtaH5ukmECzXoAV47KpAPkO+2SiAvGrOAAwZhZCKCzPgT1/7TNEz+CM9YampiNdQEFZIE4XmyypNNCgxkSvAnCTMyo5vEle/14M15BJpXiNZKRZUHTKSVpXqQ5c8I3KyEPMeXTO0/uqIma4QCDg3c8KiQgaEHc95jvM0XloaT4bPD1IXJTs55JVzPmIAfo6+nJZhUtwpxK34Mmx1nLOQRFHWQ6jlbhj1P2ymQNxuq5rrm9+jhAqrc3dzGZ9CBsAVHsmHtoDtz8FGHp5ARQGsyPh+gSJB0PkimNqzf1RZJTHAC3bukT586N0xgQT0eg/yZ5Zi8EAO4OZpZpyOSnctR2GlaUWpNstTt94Gjyh9993EriBIn5q4KEs0eOjvSn0z4kH5hoIbz+MQKAAZAvJ8BsRbi1SU03qf5zFHJxFBCAn5yEmKCAANLjGl0/qn4SzxLPBhi5ds1vO9DuKq6fTT8UUEd410dNVwm+FogZTI358OkaFwvDkHS78unXAyOMZWrf8b2nrg3oNlIYpSRhhk4dOjR2+PQZ0lsC9jLKju55/zL9aPrS8G+MwOt1oW6kIKtKYJUHoT0N9YcLkaMNJpQz5z18c04dJvEUsaGHA6hUCvuam4dPHj+eBvvYVWFYK8ro/g9CFAUgKotg01jSr1JlFFTvEDCSRc4DTvzk4aNO/2RqHPsIWREbejgAKzLpNBr3NLtt27YNZrq7J5DTAqLUgUgEIUsK4E8peDfH4V9KIuvmcLHPR+MXuczeTr8tfR+NBELtRO9pejQAq7O5HFq/Oz1Z9/qaO52vrv7rSuP25N3du++6uxruuE31t909nwy5Oz6fvLu6KXvljY+9zjO/6jpaRSs5c+/T5wH9AwAA//8ihpInAAAABklEQVQDACgT8uKlCvH9AAAAAElFTkSuQmCC",
+      "tags": [
+        "coins"
       ],
       "minZoom": null,
       "maxZoom": null
