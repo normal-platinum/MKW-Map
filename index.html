@@ -137,10 +137,12 @@
   
   //funcs
   function myPopup(desc,type,file) {//returns stringified html element
+    let folder = type;
+    if (type == "? Panel") {folder = "Panel"}
     let s = window.innerWidth <= 550?21:30;
     let image = "";
     if (file!=undefined) 
-      {image = `<img src="Screenshots/${type}/${file}" width="${16*s}" height="${9*s}">`}
+      {image = `<img src="Screenshots/${folder}/${file}" width="${16*s}" height="${9*s}">`}
     if (desc == null) {desc = ""}
     return `<p>${desc}</p>${image}`;};
 
