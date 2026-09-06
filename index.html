@@ -15,6 +15,7 @@
      crossorigin=""></script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet-groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.css"/>
   <script src="https://unpkg.com/leaflet-groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.js"></script>
+  <script src="https://unpkg.com/@luomus/leaflet-smooth-wheel-zoom/SmoothWheelZoom.js"></script>
   <style>
     .leaflet-control-layers-group{padding-left:15px;margin-bottom:5px;}
     .leaflet-control-layers-group-label{font-weight:bold;display:block;margin-left:-15px;margin-bottom:3px;}
@@ -26,6 +27,10 @@
 <script type="module">
   //init map
   var map = L.map('map', {
+    scrollWheelZoom: false,
+    smoothWheelZoom: true,
+    smoothSensitivity: 1.5,
+    zoomSnap: 0,
     crs: L.CRS.Simple,
     center: [0,0],
     zoom: -1,
@@ -141,19 +146,19 @@
 
   function myTooltip(desc,type,file) {//returns stringified html element
     if (desc == null) {desc = ""}
-    else if (type != "Coin Pile") {desc = desc+'<br>'}
+    else if (desc != "") {desc = desc+'<br>'}
     let tipType = type
     if (type == "Yoshi's") {
       let t, f; 
       try {t = String(file).match(/(?:MKW.)(\w+)/)[1]; 
-        f = String(file).match(/(?:MKW Y\w\w \w* )((?:\w| \w| &)+)/)[1];} 
+        f = String(file).match(/(?:MKW Y\w\w \w* )((?:[a-zA-Z]| [a-zA-Z]| &)+)/)[1];} 
       catch {console.error("No file found, setting tooltip to misc Yoshi's")}
       switch (t) {
         case "YDT": tipType = "Yoshi's Drive-Through"; break;
         case "YFT": tipType = "Yoshi's Food Truck"; break;
         case "YSB": tipType = "Yoshi's Snack Bar"; break;
       } if(!desc.includes(f)){tipType += ` (${f})`}}
-    if (type == "Coin Pile") {return desc}
+    if (type=="Coin Pile"||type=="UFO") {return desc}
     return desc+tipType;
   }
 
@@ -176,12 +181,28 @@
   function myMarker(j) {//j is the input object, m is the output marker
     if (j.type == "Signal Bug") {return}
     //stopgap until I commit to finishing all sigbug/enemy spawners
+    const detectTouch = window.matchMedia('(pointer: coarse)').matches;
     let m = L.marker(j.loc)
       .setIcon(glossary[j.type].icon)
       .bindPopup(myPopup(j.description,j.type,j.link),{maxWidth:500})
-      .bindTooltip(myTooltip(j.description,j.type,j.link))
+      .bindTooltip(myTooltip(j.description,j.type,j.link),{direction: detectTouch?"bottom":"auto"})
       .addTo(myGroup(j.link,j.type));
   }
+
+  function iconSize() {//resizes all icons in glossary when zoom > 2
+    console.log("resizing");
+    const zoom = map.getZoom();
+    const a = 7/6, b = 13/2, c = 37/3, d = 1/8;
+    let s = 1;
+    if (zoom > 2) {s = a*zoom**3-b*zoom**2+c*zoom; s *= d}
+    Object.values(glossary).forEach((en)=>{
+      en.icon.options.iconSize = [24*s,24*s]
+      Object.values(en.groups).forEach((g)=>{
+        g.getLayers().forEach((m)=>{m.setIcon(en.icon)})
+        })
+    })
+  }
+  map.on('zoom', iconSize)
   
   //async stuff
   loadDataJSON().then(result => {

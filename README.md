@@ -11,6 +11,8 @@ Credit for certain discoveries to [AkBKukU](https://github.com/AkBKukU/mkw-map) 
 Leaflet by [Leaflet Maintainers](https://github.com/Leaflet/Leaflet)<br>
 Obsidian Leaflet by [javalent](https://github.com/javalent/obsidian-leaflet)<br>
 leaflet-groupedlayercontrol by [ismyrnow](https://github.com/ismyrnow/leaflet-groupedlayercontrol)<br>
+leaflet-smooth-wheel-zoom by [mutsuyuki](https://github.com/mutsuyuki/Leaflet.SmoothWheelZoom)<br>
+
 Special Thanks to: 
 - Maelmc, for their feedback on the original repo
 - Lady Sophie, for engaging in all my ramblings about the game
