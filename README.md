@@ -14,8 +14,8 @@ leaflet-groupedlayercontrol by [ismyrnow](https://github.com/ismyrnow/leaflet-gr
 leaflet-smooth-wheel-zoom by [mutsuyuki](https://github.com/mutsuyuki/Leaflet.SmoothWheelZoom)<br>
 
 Special Thanks to: 
-- Maelmc, for their feedback on the original repo
-- Lady Sophie, for engaging in all my ramblings about the game
+- Maelmc, for their feedback on the original repo and this one
+- Lady Sophie, for engaging in my ramblings about the game
 - All of the lovely helpful contributors of the Super Mario Wiki
 
 If you contributed, feel free to add your name below!<br>
@@ -33,19 +33,19 @@ Contributors:
 	2) Enable plugins (required for Leaflet)
 	3) Double click on "Leaflet" in the left outline to open up the file
 3) Edit! (Obsidian Leaflet Tips)
-	- You will most likely want to enable the roads layer, using the 3 stacked rhombus icon in the top right.
-	- While in editing view, you can change parameters of the map. In order to view the map, either toggle reader view or click outside the code block.
-	- Be careful when dragging the map, as markers can also be dragged. This can be avoided by using the lock icon in the top right.
-	- Please do NOT "Convert to Code Block"! This converts the marker's JSON to YAML, which will cause that marker to not appear on the website. 
-	- When you add a screenshot to your marker in Obsidian, make sure that the 'Note to Open' field includes the file ending. Otherwise, it will open a new .md file instead of your image.
+	- While in editing view, you can change parameters of the map. In order to view the map, either **toggle reader view** using the book icon or click outside the code block.
+	- You will most likely want to **enable the roads layer**, using the 3 stacked rhombus icon in the top right.
+	- Be careful when dragging the map, as markers can also be dragged. This can be avoided if you **lock the map** using the lock icon in the top right.
+	- Please **do NOT "Convert to Code Block"**! This converts the marker's JSON to YAML, which will cause that marker to not appear on the website.
+	- When you add a screenshot to your marker in Obsidian, make sure that the 'Note to Open' field **includes the file ending**. Otherwise, it will open a new .md file instead of your image.
+	- When adding mission objects (such as Blue Coins or Goal Rings), make sure they **use the same image** used by the P Switch.
 4) Publish Your Changes
 	1) Commit changes to your fork. It's a good idea to do this regularly, especially if you are working collaboratively
 	2) When your fork reaches a finished state, submit a Pull Request to merge your changes into the main branch. Please describe exactly what you changed!
 
 ## Contributions wanted
-- **BEFORE COMMIT**
 - Free Roam sections of GBR, rDDJ, rSHS, DBB, rAF, SSS, rWSh, rKTB
-- P Switch Missions (have 0%), Peach Medallions (have 3.5%), and ? Panels (have 3.33%)
+- P Switch Missions (have 0.76%), Peach Medallions (have 3.5%), and ? Panels (have 3.33%)
 - Yoshi's Drive-Throughs, Snack Bars, Food Trucks, and other Dash Food spots (have 178)
 - Vending Machines
 - Track/Route/Rally Checkpoints (have 0)
@@ -54,6 +54,7 @@ Contributors:
 - Binoculars (have 68), RVs (have 1), campfires (have 7), other random objects
 - Anything else you want to map out!
 - Large Undertakings
+	- Search feature
 	- More convenient way to contribute markers
 	- More marker metadata (tracks/routes active, spawn probabilities, mission/checkpoint paths)
 	- Option for non-homogenous markers (eg. Fast Travel --> each Course/Character, Yoshi's --> each Dash Food)
