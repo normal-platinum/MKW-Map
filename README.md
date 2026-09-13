@@ -45,7 +45,7 @@ Contributors:
 
 ## Contributions wanted
 - Free Roam sections of GBR, rDDJ, rSHS, DBB, rAF, SSS, rWSh, rKTB
-- P Switch Missions (have 0.76%), Peach Medallions (have 3.5%), and ? Panels (have 3.33%)
+- P Switch Missions (have 0.76%), Peach Medallions (have 4%), and ? Panels (have 3.33%)
 - Yoshi's Drive-Throughs, Snack Bars, Food Trucks, and other Dash Food spots (have 178)
 - Vending Machines
 - Track/Route/Rally Checkpoints (have 0)
